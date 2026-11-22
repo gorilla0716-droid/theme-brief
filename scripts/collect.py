@@ -28,6 +28,26 @@ def rss_url(query: str) -> str:
     return f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
 
 
+def bing_url(query: str) -> str:
+    # Google이 GitHub Actions 서버의 요청을 막을 때(HTTP 503) 쓰는 예비 출처
+    q = urllib.parse.quote(query)
+    return f"https://www.bing.com/news/search?q={q}&format=rss&mkt=ko-KR&setlang=ko-KR&cc=KR"
+
+
+GOOGLE_OK = True  # Google이 한 번 막히면 이번 실행에서는 바로 Bing으로
+
+
+def search(query: str):
+    global GOOGLE_OK
+    if GOOGLE_OK:
+        items = parse(fetch(rss_url(query), tries=2))
+        if items:
+            return items
+        GOOGLE_OK = False
+        print("  Google 뉴스 응답 없음 → 이번 실행은 Bing 뉴스로 수집", file=sys.stderr)
+    return parse(fetch(bing_url(query)))
+
+
 def fetch(url: str, tries: int = 3) -> bytes:
     for i in range(tries):
         try:
@@ -52,7 +72,14 @@ def parse(xml_bytes: bytes):
     for it in root.iter("item"):
         title = (it.findtext("title") or "").strip()
         link = (it.findtext("link") or "").strip()
+        # Bing 링크는 apiclick.aspx?...&url=원문주소 형태 → 원문 주소만 꺼내기
+        if "bing.com/news/apiclick" in link:
+            real = urllib.parse.parse_qs(urllib.parse.urlparse(link).query).get("url")
+            if real:
+                link = real[0]
         src_el = it.find("source")
+        if src_el is None:  # Bing은 <News:Source> (네임스페이스가 검색어마다 다름)
+            src_el = next((c for c in it if c.tag.endswith("}Source")), None)
         source = (src_el.text or "").strip() if src_el is not None else ""
         try:
             pub = parsedate_to_datetime(it.findtext("pubDate") or "")
@@ -85,7 +112,7 @@ def collect_theme(queries, max_age_h, limit):
     seen, out = set(), []
     for q in queries:
         print(f"  검색: {q}")
-        for it in parse(fetch(rss_url(q))):
+        for it in search(q):
             if now - it["pub"] > timedelta(hours=max_age_h):
                 continue
             key = norm(it["title"])
