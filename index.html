@@ -200,9 +200,28 @@
     <div class="grp"><label>자동 갱신</label>
       <div class="auto">
         <div><div class="at">뉴스 자동 수집</div><div class="as" id="autoState">평일 07:48 · GitHub Actions (무료)</div></div>
-        <a class="linkbtn" id="autoLink" href="#" target="_blank" rel="noopener">켜기/끄기 ↗</a>
+        <button class="switch" role="switch" aria-checked="false" id="autoSwitch" aria-label="뉴스 자동 수집 켜기/끄기" disabled><i></i></button>
       </div>
-      <p class="as" style="margin-top:8px">GitHub의 Actions 화면에서 'Collect news' 작업을 Disable하면 꺼지고, Enable하면 다시 켜집니다. 'Run workflow'로 지금 바로 수집할 수도 있어요. Claude 사용량은 들지 않아요.</p>
+      <div class="row" style="margin-top:8px">
+        <button class="btn ghost" id="runNow" disabled>지금 수집하기</button>
+        <a class="linkbtn" id="autoLink" href="#" target="_blank" rel="noopener" style="display:grid;place-items:center">GitHub에서 보기 ↗</a>
+      </div>
+      <div class="err" id="autoErr" hidden></div>
+      <details class="addbox" id="tokBox">
+        <summary id="tokSum">앱에서 켜고 끄려면: GitHub 토큰 연결</summary>
+        <p class="as" style="margin-bottom:10px">이 저장소의 Actions 권한만 가진 토큰을 한 번 넣어 두면, 앱에서 바로 자동 수집을 켜고 끄거나 지금 수집할 수 있어요. 토큰은 이 기기의 브라우저에만 저장돼요.</p>
+        <ol class="as" style="padding-left:18px;margin-bottom:10px">
+          <li><a id="tokLink" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub 토큰 만들기 ↗</a> (Fine-grained token)</li>
+          <li>Repository access: <b>Only select repositories</b> → 이 저장소만 선택</li>
+          <li>Permissions → Repository permissions → <b>Actions: Read and write</b></li>
+          <li>Generate token 후 나온 값을 아래에 붙여넣기</li>
+        </ol>
+        <form id="tokForm">
+          <label class="fld"><span>GitHub 토큰</span><input name="tok" type="password" autocomplete="off" placeholder="github_pat_…" required></label>
+          <div class="row"><button class="btn" type="submit">저장</button><button class="btn ghost" type="button" id="tokDel">토큰 지우기</button></div>
+        </form>
+      </details>
+      <p class="as" style="margin-top:8px">켜 두면 평일 아침 7:48에 GitHub Actions가 뉴스를 모아요. 무료이고 Claude 사용량은 들지 않아요.</p>
     </div>
     <div class="grp"><label>데이터</label>
       <button class="danger" id="resetChecks">오늘 체크 표시 모두 해제</button>
@@ -412,7 +431,7 @@ $('#delTheme').onclick=()=>{
 };
 $('#resetAll').onclick=e=>{
   if(e.target.dataset.arm!=='1'){ e.target.dataset.arm='1'; e.target.textContent='한 번 더 누르면 초기화됩니다'; return; }
-  S=fresh(); save(); applySettings(); render(); setOpen(false); toast('처음 상태로 되돌렸어요');
+  S=fresh(); save(); applySettings(); render(); setOpen(false); toast('처음 상태로 되돌렸어요');  // GitHub 토큰은 그대로 둠
   e.target.dataset.arm=''; e.target.textContent='처음 상태로 되돌리기';
 };
 
@@ -639,8 +658,55 @@ JSON만 출력: [{"name":"종목명","code":"6자리 또는 빈 문자열","reas
 }
 
 applySettings(); render();
-(function(){ const owner=location.hostname.split('.')[0], repo=location.pathname.split('/').filter(Boolean)[0]||'';
-  const a=$('#autoLink'); if(location.hostname.endsWith('github.io')&&repo) a.href=`https://github.com/${owner}/${repo}/actions/workflows/collect.yml`; else a.hidden=true; })();
+/* ---------- 자동 수집 켜기/끄기 (GitHub Actions API) ---------- */
+(function(){
+  const owner=location.hostname.split('.')[0], repo=location.pathname.split('/').filter(Boolean)[0]||'';
+  const onGH=location.hostname.endsWith('github.io')&&repo;
+  const a=$('#autoLink'), sw=$('#autoSwitch'), run=$('#runNow'), st=$('#autoState'), er=$('#autoErr');
+  if(!onGH){ a.hidden=true; sw.hidden=true; run.hidden=true; $('#tokBox').hidden=true; return; }
+  a.href=`https://github.com/${owner}/${repo}/actions/workflows/collect.yml`;
+  const TK='themebrief.ghtoken';
+  const tok=()=>{ try{ return localStorage.getItem(TK)||''; }catch(e){ return ''; } };
+  const API=`https://api.github.com/repos/${owner}/${repo}/actions/workflows/collect.yml`;
+  const hdr=()=>{ const h={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}; if(tok()) h.Authorization='Bearer '+tok(); return h; };
+  let active=null, busy=false;
+  const err=m=>{ er.textContent=m; er.hidden=!m; };
+  const paint=()=>{
+    sw.setAttribute('aria-checked', active===true);
+    sw.disabled = busy || active===null || !tok();
+    run.disabled = busy || !tok() || active===false;
+    st.textContent = active===null ? '상태 확인 중…' : active ? '켜짐 · 평일 07:48 · GitHub Actions (무료)' : '꺼짐 · 자동 수집이 멈춰 있어요';
+    $('#tokSum').textContent = tok() ? '✓ GitHub 토큰 연결됨 (변경·삭제)' : '앱에서 켜고 끄려면: GitHub 토큰 연결';
+  };
+  const why=r=> r.status===401 ? '토큰이 올바르지 않거나 만료됐어요. 토큰을 다시 넣어주세요.'
+             : r.status===403||r.status===404 ? '토큰 권한이 부족해요. 이 저장소의 Actions: Read and write 권한이 필요해요.'
+             : `GitHub 응답 오류 (${r.status}). 잠시 후 다시 시도해주세요.`;
+  async function load(){
+    try{ const r=await fetch(API,{headers:hdr(),cache:'no-store'});
+      if(!r.ok){ active=null; paint(); if(tok()) err(why(r)); return; }
+      const w=await r.json(); active = w.state==='active'; err('');
+    }catch(e){ active=null; err('GitHub에 연결하지 못했어요. 인터넷 연결을 확인해주세요.'); }
+    paint();
+  }
+  sw.onclick=async()=>{
+    if(busy||!tok()) return; busy=true; paint(); const want=!active;
+    try{ const r=await fetch(`${API}/${want?'enable':'disable'}`,{method:'PUT',headers:hdr()});
+      if(r.status===204){ active=want; err(''); toast(want?'자동 수집을 켰어요':'자동 수집을 껐어요'); } else err(why(r));
+    }catch(e){ err('GitHub에 연결하지 못했어요. 인터넷 연결을 확인해주세요.'); }
+    busy=false; paint();
+  };
+  run.onclick=async()=>{
+    if(busy||!tok()) return; busy=true; paint(); run.textContent='요청 중…';
+    try{ const r=await fetch(`${API}/dispatches`,{method:'POST',headers:{...hdr(),'Content-Type':'application/json'},body:JSON.stringify({ref:'main'})});
+      if(r.status===204){ err(''); toast('수집을 시작했어요. 2~3분 뒤 새로고침하세요'); } else err(why(r));
+    }catch(e){ err('GitHub에 연결하지 못했어요. 인터넷 연결을 확인해주세요.'); }
+    busy=false; run.textContent='지금 수집하기'; paint();
+  };
+  $('#tokForm').onsubmit=e=>{ e.preventDefault(); const v=new FormData(e.target).get('tok').trim(); if(!v) return;
+    try{ localStorage.setItem(TK,v); }catch(x){} e.target.reset(); $('#tokBox').open=false; toast('토큰을 저장했어요'); load(); };
+  $('#tokDel').onclick=()=>{ try{ localStorage.removeItem(TK); }catch(x){} err(''); paint(); toast('토큰을 지웠어요'); };
+  paint(); load();
+})();
 if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
 fetch('data.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(D=>{ if(mergeData(D)) render(); }).catch(()=>{});
 </script>
