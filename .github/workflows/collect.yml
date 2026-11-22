@@ -1,0 +1,40 @@
+name: Collect news
+
+on:
+  schedule:
+    # 평일 아침 7시 48분(한국시간) = 전날 22:48 UTC, 일~목
+    - cron: "48 22 * * 0-4"
+  workflow_dispatch: {}   # Actions 화면의 'Run workflow'로 바로 실행
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect news from Google News RSS
+        run: python scripts/collect.py
+
+      - name: Commit updated data.json
+        run: |
+          if git diff --quiet -- data.json; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git config user.name "theme-brief-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "뉴스 자동 수집 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          git push
