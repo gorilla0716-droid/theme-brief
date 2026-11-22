@@ -64,6 +64,15 @@
   .chip.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
   .chip.on .cnt{color:var(--bg);opacity:.75}
   .chip.add{border-style:dashed;color:var(--muted)}
+  .chip.add.on{border-style:solid}
+
+  /* theme picker */
+  .tlist{border-top:1px solid var(--line);margin-bottom:6px}
+  .trow{display:flex;align-items:center;gap:12px;padding:12px 2px;border-bottom:1px solid var(--line)}
+  .trow .tn{font-weight:700}
+  .trow .tk{font-size:.78em;color:var(--muted)}
+  .trow .badge{font-size:.68em;padding:1px 6px;border-radius:5px;background:var(--faint);margin-left:6px;vertical-align:2px;font-weight:500}
+  .trow .del{margin-left:0;flex:none}
 
   /* theme head */
   .thead{display:flex;align-items:flex-end;gap:12px;margin:8px 0 10px}
@@ -197,10 +206,10 @@
     </div>
     <div class="grp"><label>데이터</label>
       <button class="danger" id="resetChecks">오늘 체크 표시 모두 해제</button>
-      <button class="danger" id="delTheme">현재 테마 삭제</button>
+      <button class="danger" id="delTheme">현재 테마 숨기기/삭제</button>
       <button class="danger" id="resetAll">처음 상태로 되돌리기</button>
     </div>
-    <p class="foot">뉴스는 평일 아침 Google 뉴스에서 테마별로 자동 수집됩니다. 체크포인트는 그날 주요 헤드라인 3개이고, 호재·악재 표시는 제목 단어로 자동 분류한 것이라 틀릴 수 있어요. 앱에서 직접 만든 테마는 자동 수집 대상이 아니에요. 투자 판단의 근거가 아닌 참고용입니다.</p>
+    <p class="foot">뉴스는 평일 아침 Google 뉴스에서 테마별로 자동 수집됩니다. 체크포인트는 그날 주요 헤드라인 3개이고, 호재·악재 표시는 제목 단어로 자동 분류한 것이라 틀릴 수 있어요. 보고 싶은 테마는 '＋ 테마 선택'에서 켜고 끌 수 있어요. 앱에서 직접 만든 테마는 자동 수집 대상이 아니에요. 투자 판단의 근거가 아닌 참고용입니다.</p>
   </aside>
 </div>
 <div class="toast" id="toast"></div>
@@ -345,10 +354,15 @@ function mergeData(D){
   if(S.dataAt && S.dataAt===D.updatedAt) return true;
   S.dataAt=D.updatedAt;
   D.themes.forEach(dt=>{
-    if(!dt.id || S.removed.includes(dt.id)) return;
+    if(!dt.id) return;
     (dt.news||[]).forEach(n=>{ n.id = n.id || hash(n.url||n.title); });
     let t=S.themes.find(x=>x.id===dt.id);
-    if(!t){ t={id:dt.id,news:[],stocks:[]}; S.themes.push(t); }
+    if(!t){ // 앱에서 같은 이름으로 직접 만든 테마가 있으면 자동 수집 테마로 이어받기
+      t=S.themes.find(x=>!x.auto && x.name.replace(/\s/g,'')===String(dt.name).replace(/\s/g,''));
+      if(t){ if(S.active===t.id) S.active=dt.id; t.id=dt.id; }
+    }
+    if(!t){ t={id:dt.id,news:[],stocks:[],hidden:!DEFAULT_ON.includes(dt.id)}; S.themes.push(t); }
+    if(S.removed.includes(dt.id)){ t.hidden=true; S.removed=S.removed.filter(x=>x!==dt.id); }
     t.auto=true; t.name=dt.name; t.keywords=dt.keywords||''; t.summary=dt.summary||[]; t.watch=dt.watch||''; t.aiAt=null;
     t.news=[...t.news.filter(n=>n.user), ...(dt.news||[])];
     const key=s=>s.code||s.name, fav=new Set(t.stocks.filter(s=>s.fav).map(key));
@@ -363,7 +377,9 @@ function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} 
 const $ = s => document.querySelector(s);
 const esc = s => String(s??'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const uid = () => Math.random().toString(36).slice(2,9);
-const theme = () => S.themes.find(t=>t.id===S.active) || S.themes[0];
+const shown = () => S.themes.filter(t=>!t.hidden);
+const theme = () => shown().find(t=>t.id===S.active) || shown()[0] || S.themes[0];
+const DEFAULT_ON = SEED.map(t=>t.id);  // 처음부터 보이는 기본 테마
 function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(toast.h); toast.h=setTimeout(()=>t.classList.remove('show'),1800); }
 
 /* ---------- settings ---------- */
@@ -388,8 +404,11 @@ const setOpen = o => document.getElementById('setRoot').classList.toggle('open',
 $('#openSet').onclick=()=>setOpen(true); $('#closeSet').onclick=()=>setOpen(false); $('#scrim').onclick=()=>setOpen(false);
 $('#resetChecks').onclick=()=>{ S.checked={}; save(); render(); toast('체크 표시를 모두 해제했어요'); };
 $('#delTheme').onclick=()=>{
-  if(S.themes.length<=1) return toast('테마는 최소 1개 필요해요');
-  const t=theme(); if(t.auto) S.removed.push(t.id); S.themes=S.themes.filter(x=>x.id!==t.id); S.active=S.themes[0].id; save(); render(); setOpen(false); toast(`'${t.name}' 테마를 삭제했어요`);
+  if(shown().length<=1) return toast('테마는 최소 1개 필요해요');
+  const t=theme();
+  if(t.auto){ t.hidden=true; toast(`'${t.name}' 테마를 숨겼어요 (테마 선택에서 다시 켤 수 있어요)`); }
+  else { S.themes=S.themes.filter(x=>x.id!==t.id); toast(`'${t.name}' 테마를 삭제했어요`); }
+  S.active=shown()[0].id; save(); render(); setOpen(false);
 };
 $('#resetAll').onclick=e=>{
   if(e.target.dataset.arm!=='1'){ e.target.dataset.arm='1'; e.target.textContent='한 번 더 누르면 초기화됩니다'; return; }
@@ -406,10 +425,11 @@ function render(){
     return `<div class="idx"><div class="n">${esc(m.name)}</div><span class="v mono">${esc(m.value)}</span><span class="c ${neg?'down':'up'} mono">${neg?'▼':'▲'}${esc(String(m.change).replace(/^[+-]/,''))}</span></div>`; }).join('');
   $('#mnote').textContent=[M.asOf&&(M.asOf+(M.marketSource?' · '+M.marketSource:'')+' 기준'),'실시간 시세 아님',M.updatedAt&&('뉴스 업데이트 '+fmtTime(M.updatedAt))].filter(Boolean).join(' · ');
 
-  $('#chips').innerHTML = S.themes.map(t=>{
+  const cur = S.active==='__new' ? '__new' : theme().id;
+  $('#chips').innerHTML = shown().map(t=>{
     const left=t.news.filter(n=>!S.checked[n.id]).length;
-    return `<button class="chip ${t.id===S.active?'on':''}" data-theme="${t.id}">${esc(t.name)}${left?`<span class="cnt mono">${left}</span>`:''}</button>`;
-  }).join('') + `<button class="chip add" data-theme="__new">+ 테마</button>`;
+    return `<button class="chip ${t.id===cur?'on':''}" data-theme="${t.id}">${esc(t.name)}${left?`<span class="cnt mono">${left}</span>`:''}</button>`;
+  }).join('') + `<button class="chip add ${cur==='__new'?'on':''}" data-theme="__new">＋ 테마 선택</button>`;
 
   if(S.active==='__new') return renderNew();
   const t=theme(); const total=t.news.length, done=t.news.filter(n=>S.checked[n.id]).length;
@@ -499,18 +519,36 @@ function render(){
 }
 
 function renderNew(){
+  const row=t=>`
+      <div class="trow">
+        <div style="flex:1;min-width:0">
+          <div><span class="tn">${esc(t.name)}</span><span class="badge">${t.auto?'자동 수집':'직접 관리'}</span></div>
+          <div class="tk">${esc(t.keywords||'')}${t.keywords?' · ':''}뉴스 ${t.news.length}건</div>
+        </div>
+        ${t.auto?'':`<button class="del" data-deltheme="${t.id}">삭제</button>`}
+        <button class="switch" role="switch" aria-checked="${!t.hidden}" data-toggle="${t.id}" aria-label="${esc(t.name)} 보이기"><i></i></button>
+      </div>`;
+  const autos=S.themes.filter(t=>t.auto), mine=S.themes.filter(t=>!t.auto);
+  const repo=location.hostname.endsWith('github.io') ? `https://github.com/${location.hostname.split('.')[0]}/${location.pathname.split('/').filter(Boolean)[0]||''}/edit/main/themes.json` : '';
   $('#main').innerHTML = `
-    <div class="thead"><div><h1>새 테마</h1><div class="kw">관심 있는 테마를 카테고리로 추가하세요</div></div></div>
-    <form id="themeForm" class="addbox" style="border-style:solid">
-      <label class="fld"><span>테마 이름</span><input name="name" required placeholder="예: 원전, 로봇, 조선, AI 전력"></label>
-      <label class="fld"><span>키워드 (· 로 구분, 선택)</span><input name="keywords" placeholder="예: SMR · 체코 · 수주"></label>
-      <button class="btn" type="submit">테마 만들기</button>
-    </form>
-    <div class="sec" style="margin-top:20px">빠른 추가</div>
-    <div class="chips" style="flex-wrap:wrap">${['원전','로봇','조선','AI 전력','금융·은행','엔터','자동차','게임'].map(n=>`<button class="chip" data-quick="${n}">${n}</button>`).join('')}</div>`;
-  const add=(name,kw)=>{ const id='t'+uid(); S.themes.push({id,name,keywords:kw||'',summary:[],watch:'',news:[],stocks:[]}); S.active=id; S.view='news'; save(); render(); toast(`'${name}' 테마를 만들었어요`); };
+    <div class="thead"><div><h1>테마 선택</h1><div class="kw">켜 둔 테마만 위쪽 목록에 보여요 · 지금 ${shown().length}개 켜짐</div></div></div>
+    <div class="sec">자동 수집 테마 ${autos.length}개 · 평일 아침 최신 뉴스</div>
+    <div class="tlist">${autos.map(row).join('')}</div>
+    ${mine.length?`<div class="sec" style="margin-top:18px">직접 만든 테마 ${mine.length}개 · 뉴스는 직접 추가</div><div class="tlist">${mine.map(row).join('')}</div>`:''}
+    <details class="addbox" style="margin-top:20px">
+      <summary>＋ 목록에 없는 테마 직접 만들기</summary>
+      <form id="themeForm">
+        <label class="fld"><span>테마 이름</span><input name="name" required placeholder="예: 우주항공, 반려동물"></label>
+        <label class="fld"><span>키워드 (· 로 구분, 선택)</span><input name="keywords" placeholder="예: 위성 · 발사체"></label>
+        <button class="btn" type="submit">테마 만들기</button>
+      </form>
+      <p class="note" style="margin-top:12px;margin-bottom:0">직접 만든 테마는 자동 수집이 되지 않아요.${repo?` 매일 최신 뉴스를 받으려면 <a href="${repo}" target="_blank" rel="noopener">themes.json</a>에 테마와 검색어를 추가하세요. 다음 수집부터 이 목록에 '자동 수집'으로 나타나고, 같은 이름의 직접 만든 테마는 자동으로 이어받아요.`:''}</p>
+    </details>`;
+  const add=(name,kw)=>{
+    const same=S.themes.find(x=>x.name.replace(/\s/g,'')===name.replace(/\s/g,''));
+    if(same){ same.hidden=false; S.active=same.id; S.view='news'; save(); render(); return toast(`'${same.name}' 테마를 켰어요`); }
+    const id='t'+uid(); S.themes.push({id,name,keywords:kw||'',summary:[],watch:'',news:[],stocks:[]}); S.active=id; S.view='news'; save(); render(); toast(`'${name}' 테마를 만들었어요`); };
   $('#themeForm').onsubmit=e=>{ e.preventDefault(); const f=new FormData(e.target); add(f.get('name').trim(), f.get('keywords').trim()); };
-  document.querySelectorAll('[data-quick]').forEach(b=>b.onclick=()=>add(b.dataset.quick,''));
 }
 
 function bindForms(){
@@ -529,9 +567,20 @@ function bindForms(){
 }
 
 document.addEventListener('click',e=>{
-  const el=e.target.closest('[data-theme],[data-view],[data-check],[data-fav],[data-delnews],[data-delstock]'); if(!el) return;
+  const el=e.target.closest('[data-theme],[data-view],[data-check],[data-fav],[data-delnews],[data-delstock],[data-toggle],[data-deltheme]'); if(!el) return;
   const t=theme(), ds=el.dataset;
-  if(ds.theme){ S.active=ds.theme; save(); render(); window.scrollTo({top:0}); }
+  if(ds.toggle){
+    const x=S.themes.find(y=>y.id===ds.toggle); if(!x) return;
+    if(!x.hidden && shown().length<=1) return toast('테마는 최소 1개 켜 두어야 해요');
+    x.hidden=!x.hidden; save(); render(); toast(`'${x.name}' ${x.hidden?'숨김':'켬'}`);
+  }
+  else if(ds.deltheme){
+    const x=S.themes.find(y=>y.id===ds.deltheme); if(!x) return;
+    if(!x.hidden && shown().length<=1) return toast('테마는 최소 1개 켜 두어야 해요');
+    if(el.dataset.arm!=='1'){ el.dataset.arm='1'; el.textContent='한 번 더'; return; }
+    S.themes=S.themes.filter(y=>y.id!==x.id); save(); render(); toast(`'${x.name}' 테마를 삭제했어요`);
+  }
+  else if(ds.theme){ S.active=ds.theme; save(); render(); window.scrollTo({top:0}); }
   else if(ds.view){ S.view=ds.view; save(); render(); }
   else if(ds.check){ S.checked[ds.check]=!S.checked[ds.check]; save(); render(); }
   else if(ds.fav){ const s=t.stocks.find(x=>(x.code||x.name)===ds.fav); if(s){s.fav=!s.fav; save(); render();} }
