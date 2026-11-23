@@ -1,13 +1,13 @@
 {
- "updatedAt": "2026-11-23T08:27:32+09:00",
+ "updatedAt": "2026-11-24T08:35:33+09:00",
  "asOf": "",
  "marketSource": "",
  "market": [],
  "headline": {
-  "title": "[마감시황] 코스피 5%대 ‘폭락’…美 반도체 규제 악재에 4800선 추락",
-  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83TVczNTVMNS1TMllvcHItazdzMDRwX1k3Y3BRNzFFd2sxRDNkc1Rrak9WTzVyb2Fkei1PRGxNZVdxNk5kbDRpUG9SOUhOUDh2UVR4STZBREFsRmEtOEtrdDRDeWd2WFhxblVZYjl6c2hhUQ?oc=5",
-  "source": "한양경제",
-  "date": "11.20"
+  "title": "[마감시황] 11/23 AI 쇼크에 코스피 -3.31%, 1월13일 이후 최저",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV2hsdXVKS0U0cjludXppb0NzWTI0bDBpVFI1WC1uczgyUWxYcVFWMU1fVDBXdmxpU21PeUZ0djcwbWNTaUVkWU0xcDFyLWZCZDRtcFRRU2U2akg2S0hKNlk5eGZvMkdhMjlYVUNMWFhrT1Vab1dueWN6SlJVaDNDODdQV2tsWllReFdvb2pfd2k?oc=5",
+  "source": "네이버 프리미엄콘텐츠",
+  "date": "11.23"
  },
  "themes": [
   {
@@ -15,75 +15,75 @@
    "name": "반도체",
    "keywords": "HBM · 엔비디아 · 메모리",
    "summary": [
-    "주가 폭락에도 은행 퇴직연금으로 반도체 ETF 순매수 (파이낸스투데이)",
-    "삼성證 “삼전·하닉, 내년 메모리값 급락 이미 선반영…PBR 1배 ‘바닥권’” (이투데이)",
-    "[오늘의 증시]美반도체지수 11% 폭락…'검은 월요일' 증안펀드가 막을까 (뉴시스)"
+    "젠슨 황 복귀에 美 반도체 14%↑…코스피 반등하나 (경북매일)",
+    "반도체 수출 294% 급증…SK하이닉스, KB證 '최악 가정' 하회 (자본시장뉴스)",
+    "젠슨 황 11일 만에 복귀…삼성전자·SK하이닉스, AI 반도체 성장세 이어갈까 (베타뉴스)"
    ],
    "watch": "체크: 외국인 반도체 순매수 전환 여부, 미국 필라델피아 반도체지수",
    "news": [
     {
-     "date": "11.23",
-     "source": "파이낸스투데이",
-     "tag": "n",
-     "title": "주가 폭락에도 은행 퇴직연금으로 반도체 ETF 순매수",
+     "date": "11.24",
+     "source": "경북매일",
+     "tag": "p",
+     "title": "젠슨 황 복귀에 美 반도체 14%↑…코스피 반등하나",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtZU5rNWdqZUJxYUVtN2hLeURJLU00YUk5NVpwRXBoTlh0aE42OVFXaXROaHR5Y09CUmo1enFLRGN6WF9OVnlBT0U0VWlCVlFNbWxaTXFUZjJLWVhDTWg3SmVMbFRlX0Z5WUZN?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XUC1lejczWjA2SklqRjl1RWNpUlU1a3NvVjI3aGpkUHRqNnF5RFpON0NkNnpkdS1Pb0h1OXRsQkVvYjMzdXpXbWZPdjlIX0RFQmRNRy05WlJjUQ?oc=5"
     },
     {
-     "date": "11.23",
+     "date": "11.24",
+     "source": "자본시장뉴스",
+     "tag": "z",
+     "title": "반도체 수출 294% 급증…SK하이닉스, KB證 '최악 가정' 하회",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44MWJXdGxqTW5YQXVaVGpyTHVYU1RZRUhVbHFLeWtkNVJVWUlBTlY5Tmx0UWJfR3NZRF9abDBaZ0tpUDVwRDhRTnl3cW1UQmRQN0gtVHRBN2ozYVlBOFN5U1RxUlQ2bG8?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "베타뉴스",
+     "tag": "z",
+     "title": "젠슨 황 11일 만에 복귀…삼성전자·SK하이닉스, AI 반도체 성장세 이어갈까",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIaDE5LXNPaDB5c0p1LVVGZmpBa05BY0dTd1UwclF1ZS1WZmxEVkV6NUxUNThpd3dBWHBMS3dQMlJmQTJ2cHZreVdfWE9nMFFWeHlHeDdrTVQ2YXJGaTJUSDhteHk?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "경북매일",
+     "tag": "p",
+     "title": "젠슨 황 복귀…삼성·SK, 차세대 HBM 협력 기대",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jMGh3aDkwSXluS2h1RnlGUU1JRDRZVms3eUE0aF9YRzNTYW5zUUZpNno2cVgwaGVORGVvdi1ENmswek9kM3E1WHdvYjFEQk1WeC1QdEoyYkxVQQ?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "서울경제TV",
+     "tag": "z",
+     "title": "젠슨 황 11일 만의 복귀에 K반도체 '안도'…HBM 동맹 이상 무",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kVzV5NHBJNTFSYXNHRmt4MHpPOHJVanNHVjZtOElhZGFoSG5LS3RGTkR5WmRiU0hEMHRoaXVOWU5kRTdJMWxsRE1PNWd2UEVzaUllNVd0UTRoQVl6UlpwNTJNOHU?oc=5"
+    },
+    {
+     "date": "11.24",
      "source": "이투데이",
      "tag": "n",
-     "title": "삼성證 “삼전·하닉, 내년 메모리값 급락 이미 선반영…PBR 1배 ‘바닥권’”",
+     "title": "KB證 “삼전·SK하닉 과매도 심화⋯HBM 내년 완판에 공급과잉 우려 과도”",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqSGdpWFowRUFmaVA2ZGdDRDRoU1hzMnJqVVU5SGtCaTZxYUJLbWJTajJkaXI0d2xwQUtONFdYWW4wQ0t4b2Q2SW1Yc2dCdkZhMV9ibw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56MWFiZWx6V3dYVjBiZTE5emM1Q2R4dFA0MFlZeU54Y2RFcjZXSW1KZDRienZuaTB3bnhTdXo3bzNFQ3lISWF4cV9ZOVI5eFJhVWZpZg?oc=5"
     },
     {
-     "date": "11.23",
-     "source": "뉴시스",
-     "tag": "n",
-     "title": "[오늘의 증시]美반도체지수 11% 폭락…'검은 월요일' 증안펀드가 막을까",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QTzBPUWwwRENvcVBvUUNkcUd5SnNvLW1pdGlpNFdoT1B1UzlHYWF2TTJFWlE2bkFvZDBiODN5N2FIam16TzJSQjJ5Sl9vUXNVb1h4WEJndXVQRUhaMUdSeNIBeEFVX3lxTE0xY094bERtSHRQLTFHWWZvX1hLRUlmM1BIbEZ1UTlweDBEUTBOOFB2WWhBTWFaX1FLRUtraENtRXRTZzJyT1REN1ctdWVfeU9nWVhiLWdPVEVDMkRYUjlYVE5HTWo3ZXdnbEdsNjlQbmJURjF1RC02Ug?oc=5"
-    },
-    {
-     "date": "11.23",
-     "source": "한국경제",
-     "tag": "z",
-     "title": "AI공포 걷어낼 수 있을까…오늘 韓·中 증시에 전세계 주목 [오늘 아침 당신이 알아야 할 7가지]",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BdW5CTUlTcmE1N3VfSWtCdWVrYVRQejRBMlN3UVVsMU9USlR5VkU3eEhxMjJnelVZUDdoakZuSkFReDRPZ1p6Q1h4X2hKR0w5eFRJZXlQN3ZPQQ?oc=5"
-    },
-    {
-     "date": "11.23",
-     "source": "톱스타뉴스",
-     "tag": "z",
-     "title": "삼성전자 18만원·SK하이닉스 110만원 지킬까…반도체 업황 전망 엇갈려",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Sb2xfQ19hakRMN3RJN1FUcnlwUGlPWWVDQ0Z3cS0tbFAyVHFZblRjVlFKNmR0Y1JGSEc5b2JaVmtuMEExQ0V1MV96WDNkcFExX0dqdUpmVG5FenRDME9OTEl0OHcxRG9paTg0endfM0k1UQ?oc=5"
-    },
-    {
-     "date": "11.23",
-     "source": "뉴스톱",
-     "tag": "z",
-     "title": "엔비디아 실적 발표하면 '삼전닉스' 주가 오른다고?",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wNGdjUW8yM2gwbXhVUWpqa2FuS0loSHV3UHkySldqWFhVS21tWVdEUGhxRndJMXpFNk1RNVhPUDR4UUh6SndKbkFkYzNzNzI1TmFDOFpSdGNkeUxaVXc?oc=5"
-    },
-    {
-     "date": "11.23",
-     "source": "재경일보",
-     "tag": "n",
-     "title": "주가 급락에도 퇴직연금 반도체 ETF 순매수 : 금융",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1FeGI2Q192UmJMcHBqcWl6WGlpRXcwbm03b2RtODZLa0FvZVhyaFhCRlhxV2Zob2RoQVQ5S3VDWUhzendRWlRFTDNLNA?oc=5"
-    },
-    {
-     "date": "11.23",
+     "date": "11.24",
      "source": "매일경제 마켓",
      "tag": "n",
-     "title": "주가급락에도 노후자금 반도체 선호 여전…ETF 순매수 지속",
+     "title": "젠슨황 깜짝 복귀에 삼전닉스 HBM 불확실성·피크아웃 우려↓",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sOWs2TzNwdGxpWXFuR1JfVm1BUzBpMzEya1dDQjJZaWliWkltckNkUzVLWEIxeTBWN1FoeWlhZU9pVFJsMV80YVNzSTRXbUVKV1E?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TYlVtQ1JTb2JhRmhiWXc3NW5PV05lWFFzOEZGMktOdFVwT0E0OXBYdXVoNXl1YkZRMTZBQkpxSUh4QjZDRzRCZEJWRVBzTEhtcFE?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "파이낸셜포스트",
+     "tag": "z",
+     "title": "[젠슨황 복귀] K반도체 숨통…\"밸류 이미 저점\"",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00NmR4bEtRNUx4SXE0X01BYjFlSDFBd1hGT0RocUVpRE00bXBMRTVUeDFUaU41OV9RaE94VUUtOTQ3VURMZUhLV0pQQS1GcGdoczh6bFBKaDJWb2IxaHRLY1Z2bjZJQkRELVFUbHF0cmhma3l2?oc=5"
     }
    ],
    "stocks": [
@@ -124,75 +124,75 @@
    "name": "2차전지",
    "keywords": "ESS · 배터리 · 양극재",
    "summary": [
-    "유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대” (이투데이)",
-    "전력 병목이 키운 ESS·냉각설비…삼성·LG, K-배터리·전자 '신성장축' (파이낸셜포스트)",
-    "“저평가 우량주 사놓고 주식창 끕니다”…그 와중에 ‘더 싼 종목’ 찾아보니 (매일경제 마켓)"
+    "ESS로 충전한 K배터리…내년 반등 가속페달 밟나 (비즈워치)",
+    "배터리 소재부터 장비까지 매도 확산…전기제품주 반등 열쇠는 수주와 실적 (핀포인트뉴스)",
+    "LG 김동명 vs 삼성 최주선, “차세대 배터리 자웅 겨룬다” (CEO스코어데일리)"
    ],
    "watch": "체크: ESS 수주 발표, 리튬 가격, 증권사 목표가 변화",
    "news": [
     {
-     "date": "11.23",
-     "source": "이투데이",
+     "date": "11.24",
+     "source": "비즈워치",
      "tag": "p",
-     "title": "유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대”",
+     "title": "ESS로 충전한 K배터리…내년 반등 가속페달 밟나",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JbmVHVEQ4T3RIOFc1YXdEMVE0SlBjTF9WS3paSGlRVUNjRm9lSm1scExFMVI0b3Q5Q05BTDhPREY1NUY4RVZhVW5HRGpaWVpkVzFzSA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UYnNGTE1pNl9YREFSZTFoLTRSQ1NROTQzSjlLaWNERjhSVWVnTmRoejQ1ZTc3WHVYY0lWN2N0d3RuU01GdkZKbkpaeFNldktKbTdZRE5KZ3p4RzhQb1lQU2hnTzZjMGVGUW5sYQ?oc=5"
     },
     {
      "date": "11.23",
-     "source": "파이낸셜포스트",
-     "tag": "z",
-     "title": "전력 병목이 키운 ESS·냉각설비…삼성·LG, K-배터리·전자 '신성장축'",
+     "source": "핀포인트뉴스",
+     "tag": "p",
+     "title": "배터리 소재부터 장비까지 매도 확산…전기제품주 반등 열쇠는 수주와 실적",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pZDduR0ZmTHFfc21zLVN0MXJERFZaV2JYQXVRWHI0QTVCMXAtWjdrWktuNVVldkpzSXhkQXBoeFphM2V4Z1BFaGRGVGNjR0ZxUVRoSEl2SlQtS250bVRLR1RYZzh1ck5TZUFpUWxvSjZkc0xx?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ScW82MlN5U0wtSFpCcndHb2QyVkVub3FZOV93akpheVFxVVp3X0VPS2tYTDV1eW5YRkxfcFBrcGhaaUVQSVdlVVNhLUx2bVJib2ZTYXZTOFVKQTVTd1cwalBiMTlQYWRhdmhBbjVoMzROTHfSAXdBVV95cUxNTE5ISU5JSmlfWDJzZ0FVMHV6SmQ2QUw0Tld5QzRhYmtHMFJ1bWpmZ0twV2locnI5LVNVZWc1eklySlJHaGVvQ3hkUnBpMlAwTFNZbmZyZ3hJdTB0TDREUzQ5YVQ1eTlFWEYxUVJtWjFFZTFkUDNRZw?oc=5"
     },
     {
      "date": "11.23",
-     "source": "매일경제 마켓",
+     "source": "CEO스코어데일리",
      "tag": "z",
-     "title": "“저평가 우량주 사놓고 주식창 끕니다”…그 와중에 ‘더 싼 종목’ 찾아보니",
+     "title": "LG 김동명 vs 삼성 최주선, “차세대 배터리 자웅 겨룬다”",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5ZjYyMURKRXNQV2NjM0tQQkpZWWhUekdlMWVpamVsX3NSRUlnSVY2eTF1a1JYbjZJMFJJZWt6VnVWc25FWnB6MGpzemoxZGNkZ3c?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RdnFiUVRRVmtjN2VFdjBZNXotdVpiUU54Sks5cFNaTTJQaTF4OUR1dzlONWplZllyRE9ETVJDUkJXdUtTbTZvOHV3QVdRdy1ZUFVGaVg1cWMwd3c4Rm1jWDJVX3FIZF9B?oc=5"
     },
     {
      "date": "11.23",
-     "source": "이넷뉴스",
-     "tag": "z",
-     "title": "[이넷뉴스 브랜드평판] 삼성SDI, 전력저장장치 ESS 상장기업 11월 1위... LG에너지솔루션, SK이노베이션 뒤이어",
+     "source": "센머니",
+     "tag": "n",
+     "title": "[전기차 관련주 동향] 11월 4주, 테슬라 급락 속 K배터리 실적 선별",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtdERWUTdEeHdTN1FRY3R3NWVBZ0U2dU9YN0ZmOXdKYmlIMXhxY0RiZ3FZMUdXZWZTQXJGcF96NnQ0M04wOGJoM0dDYXZqMkRDSnN3d3Roc0pDXzBOcDdsZmFxWl9tSm1OcDFUbm9iU3rSAXBBVV95cUxQLXREVlE3RHh3UzdRUWN0dzVlQWdFNnVPWDdGZjl3SmJpSDF4cWNEYmdxWTFHV2VmU0FyRnBfejZ0NDNOMDhiaDNHQ2F2ajJEQ0pzd3d0aHNKQ18wTnA3bGZhcVpfbUptTnAxVG5vYlN6?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhYUFkY0lGR0Noa1ljMXdrOVZWTFVheW1LTmZ0VEFxaFZVdE5wZTlQTU9tMUZoQ1Jxc09vRXZNcjZjRkpscmk3TVJWZEVvbEpMRk1ub2tUQ3d0d0ZFeWcyTndVNXY5c3hGMUhGVg?oc=5"
     },
     {
      "date": "11.23",
-     "source": "Chosunbiz",
-     "tag": "z",
-     "title": "주가 반토막에 풋옵션 폭탄… 에코프로비엠, 기존 FI들에 ‘CB 돌려막기’",
+     "source": "디지털투데이",
+     "tag": "p",
+     "title": "삼진엘앤디 이경재 이사, 소유 주식 수량 3만6946주 증가…소유 지분율 0.15%p 상승",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3RkM29YbE5idlNmaEc4eGVRbGdrQTVHS0RlY0NUN19mT1pCTFphdlh3UThCUFlPMlVMZHRuUEF6WEh4M1dZVlpCcGZvaU0wWDZBMmduSFVmRXBWYUxaenFBWlNMajJud1laQ1RNMzlpcngxVWNtTkhOWDdVelNCR3dtMklteVHSAZsBQVVfeXFMTUtqTzllYUxCX0I2X2pkVkJJYTFiN19qRWNvbjdISWxmZjNIUnlpQWNJQjhNclBOUks5dFNub3lLVWQ0STlscThDNHIyY3FVbkdxbWNzRkxuWGdtalZJTjE1bXhET0k2bEU4OFNNa1Vscjhzb2FldzNKNGsza2hpN0JlZV81X0NMT3dYWlBOOEVSeTJKRjRoZTRvaUU?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tMUZ3VUVmYlRjaUxoV2pLdW5DbWJMSTNEV1VTZUtFcVNzWGczeDk5eXdKYThhRlhDdGtoSUotZ1lxZHgtMDhjSHBRZGlidGFWQ0JySmg5bnpKaWhPaWlKSURuMzNiTGF2SWgzanBZeDJoQVUzWjZKSmNaQQ?oc=5"
     },
     {
      "date": "11.23",
-     "source": "PRESS9",
+     "source": "핀포인트뉴스",
      "tag": "z",
-     "title": "앤트로픽 IPO發 AI 인프라 투자↑…K기업 수혜 영역 확장",
+     "title": "전기차 캐즘에 2차전지주 약세…이수스페셜티케미컬 상승랠리 '눈에 띄네'",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yalR3S1ljOTJZVWtjSVdYM0g0VjNFMlFtdVZjcUU5TTJDTjZFcktJOFBPa2tmX3FEWW0teTAwY1Atbk1QS1FNT21hZlMta0tqeWJLUTdTN1FuR0tPb3h1QUttM28?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LdmNjbVB3amF0RXpPYkhIOVUtZDJLdWNndlV4ZzBjOUdtWFpPaU4zYWRmTWxfMDFxb29OcWVFWmNLVXVKUTlqQkx3N05TUEd4WHRQWXRWeGlZWGdtVVRxNi1xdWNOZFEwM0xoSHYyU1lyM0hjXzlB0gF3QVVfeXFMT0t2Y2NtUHdqYXRFek9iSEg5VS1kMkt1Y2d2VXhnMGM5R21YWk9pTjNhZGZNbF8wMXFvb05xZUVaY0tVdUpROWpCTHc3TlNQR3hYdFBZdFZ4aVlYZ21VVHE2LXF1Y05kUTAzTGhIdjJTWXIzSGNfOUE?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "디지털데일리",
-     "tag": "z",
-     "title": "김동명·최주선 유임…K-배터리, 내년은 `성과 확장` 시험대 [위클리배터리]",
+     "date": "11.23",
+     "source": "비건뉴스",
+     "tag": "p",
+     "title": "아인스팩씨엔에스 14억 공급계약 공시…주가 900원 밑돌아",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CUDRTbE50dTBONXZlbkM3UlE3akwzSHVtS2FucTliNDJBSmpQYUhEc29USVFXeGo0Yi1hRUNrSU5uYkxKVEswTWVTc0Z1U0c3ZGdIRTJiNFI3NzJQR0VLTFE5TDM?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yLVkxZkJJV01aYW0xXzFVSGdGT1Fibi1aX09WdnFSNzNfajQ0VmxhQTZpeEV5c2NKV2VyWXdEU2ZDbWZJYXJCSmk1a0xFdTFsZzJJM2tHVHkwX3FLMnkwLTNVa09Zdw?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "아시아경제",
-     "tag": "z",
-     "title": "[주末머니]2027년, EV 아닌 ESS에 주목하라",
+     "date": "11.23",
+     "source": "핀포인트뉴스",
+     "tag": "n",
+     "title": "2차전지(전고체) 단기 차익실현 매물에 하락… 상용화 속도·실적 옥석 가리기",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5VlhzRlFLRXdfblMxTVc3Z0FQTmloamE4bWpFdkRtWE5WNnkwbkxJN1B1UmRIN1g5SUhhTE84UlZEQnltVDczOXdCOGFrUGEwWXRicnkxdXdGSm80QXdjQm5n?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TdTBtX25RTDIwaGJiLWZUR2NSSXJkRWlGRjVDQ2lqQ0Y0cjZTM2NrRDJOTjFQTFFKdjNnaDA0cU1SR25kMUg4Y2Zsc2Z1RzRRNWJKWHNITUd3SWM1S2ZJQXczcTdsZUFTTk9xRmJYTzdrdFZteWNJ0gF3QVVfeXFMTlN1MG1fblFMMjBoYmItZlRHY1JJcmRFaUZGNUNDaWpDRjRyNlMzY2tEMk5OMVBMUUp2M2doMDRxTVJHbmQxSDhjZmxzZnVHNFE1YkpYc0hNR3dJYzVLZklBdzNxN2xlQVNOT3FGYlhPN2t0Vm15Y0k?oc=5"
     }
    ],
    "stocks": [
@@ -233,12 +233,52 @@
    "name": "방산",
    "keywords": "K방산 · 수주 · 유럽 재무장",
    "summary": [
-    "수출 1조달러 돌파에도 반도체 쏠림…삼양식품·실리콘투·현대로템이 주목받는 이유 (핀포인트뉴스)",
-    "美 중간선거 민주당 승리하면…“방산주 부담·전력기기 수혜” [美 중간선거] (쿠키뉴스)",
-    "현대로템, 방산주 조정 속 7.51% 하락 (잡포스트)"
+    "'26조 수주' 날개 단 KAI, 경남에 1.5조 쏜다 (매일경제)",
+    "[심층분석] K-방산 수출 경쟁력, 대기업 수주에서 협력사 금융 생태계로…우리은행, 8,200억원 상생 무역금융 공급 (뉴스밸류)",
+    "K방산 4사 수주잔고 100조 붕괴...정치·입찰 변수에 신규 일감 확보 '경고등' (중앙이코노미뉴스)"
    ],
    "watch": "체크: 유럽·중동 신규 수주 공시, 원/달러 환율",
    "news": [
+    {
+     "date": "11.23",
+     "source": "매일경제",
+     "tag": "p",
+     "title": "'26조 수주' 날개 단 KAI, 경남에 1.5조 쏜다",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBLSGNNOGVNT0dFSlNoblVYU2pGZ0hncHZQVzRYT01WeGJ3emlEZTRHMzFwUzByYmRMeW0zVElpYWYxbnozREE?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "뉴스밸류",
+     "tag": "p",
+     "title": "[심층분석] K-방산 수출 경쟁력, 대기업 수주에서 협력사 금융 생태계로…우리은행, 8,200억원 상생 무역금융 공급",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ec0FieVFrX2hUTjl4Mml6M3NzZVlvVk9oVVpCWThtUFYxZU16XzBjSlo4N1NnRzR4Tk9laHFUdG0tRmlGYTJXWmUteTBtYUwtcC1zR3VmTWpOTWhjUXgtV3JFTThKNXJBdkE?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "중앙이코노미뉴스",
+     "tag": "p",
+     "title": "K방산 4사 수주잔고 100조 붕괴...정치·입찰 변수에 신규 일감 확보 '경고등'",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rU25IRWdQZWthS0tfZDR0OWU5WUlNdS1NSFZEZW4yU3lmN1p6eDJ3aXJvLXdPS25UbEEzS1JfR0F6TmxYWkU1enh6WVo4bHNXX1hCVDJ3VjBBT2h3UjFfLUo0TTFyZnUzNGgyTHp1MFhOdw?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "매일경제",
+     "tag": "p",
+     "title": "26조 수주잔고 날개 단 KAI… 우주항공 심장 경남에 1.5조 투자",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03bzluWEV3MmtFZWFhd2lfMklKWUpQaGdxV0s3eTRweHh1T3g0cGxkd1haMTNWNzBXMmIzbklIZUxoSjJWSzVCdDl1a3RPcW04eURUTEJn?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "아시아타임즈",
+     "tag": "p",
+     "title": "K방산, 유럽 현지 생산 확대에도 수주 감소…수출 전략 시험대",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JYm1OQlpiSHZXWnNIWDdHajZ3SnItQzVzd2dUSEU2Ulptc2QzV3J0cDBPZDI2Y3JycUdVa2N3dzZRQ0EzSTZ0c2pIQmhVbk95THJrWUNYajhlRV95eHc?oc=5"
+    },
     {
      "date": "11.22",
      "source": "핀포인트뉴스",
@@ -261,47 +301,7 @@
      "tag": "n",
      "title": "현대로템, 방산주 조정 속 7.51% 하락",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NRDFRTGxwQUM4VUZIQmhxMVhmMzNwLW4zd05xSVRWclk5NlJ3S1ptTGtIaW1WU3UxTU9KZFY1ZDB1eVFiNVpiUE9sRFk4QmtfSkZwMHU4Zm8wd09scF9jSjliVTBiclRLbG84Y2ViX0l5UdIBckFVX3lxTE9NRDFRTGxwQUM4VUZIQmhxMVhmMzNwLW4zd05xSVRWclk5NlJ3S1ptTGtIaW1WU3UxTU9KZFY1ZDB1eVFiNVpiUE9sRFk4QmtfSkZwMHU4Zm8wd09scF9jSjliVTBiclRLbG84Y2ViX0l5UQ?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "잡포스트",
-     "tag": "n",
-     "title": "한화에어로스페이스, 방산주 조정에 3.96% 하락",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9USUxVR0UzRUliWnV6OEZVQXFPLU1OS1VHdFY2MHB2dXJtNk9kV0Y0VWhfSWNzN3RYMmlYM3d5WUxpUHZUZGZxSE9JdWgxaVhGTnkyZFNxLWt2bzBDY0t4S2Jla0pfUF9pUkpjWjRB0gFyQVVfeXFMT2VITkc0UTlXU3NNYlNsTjNBWkdYaDJIYXd0RHdRNEhiakQ4eTQxX2REZkpyZERYVE9ISllDLWhzd1VqYmpCbEdPRlJaaWI2Xy0tYzRDZUNlM0NFVU5FSnR2Q0ZhZVQ4YzJ6aVJmaTZXTmx3?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "한국금융경제신문",
-     "tag": "n",
-     "title": "[기획] 방산 레버리지 88% 급락…개인 143억 순매수",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WcV9TQXg3UUJXMGcyYkpaOXU5czJIeUJPTG9Eaks2akhyOVBLRHBfMm04MERIMVVGN2ViRHNiMzVBNV9nUTg3dTY1VVVxeF9EYlA3b0pvRG9Oa2lIRC1Da0dfczJybUY5dTdzS9IBcEFVX3lxTFBLVl84RGViTm5OUXRfcXkzUnI3VVlQT01kUHdBRFhBNExhMDF3TmVRcXB5clZOLVpHOXAtdHBTcHg3eW5DemMtWlp1b3ZhTjBVVm1QbkFES0h2eVZfQVV0R2Jmc21WZ2VBbmRwTVhENTk?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "네이버 프리미엄콘텐츠",
-     "tag": "p",
-     "title": "방위산업 | 수주잔고 감소에도 무기 수요 확대, 2027년 회복은 신규 계약이 관건",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVi1xakFxMXZQLXp5UDZ5UFV2TjY5T1RpX3dfZjdIdjY1c19XdjZkam12dXZwTUhyQXg4MXRhOFo2RU5vb3AtX1cwUEhvdVB4Qi1IZll4WXJhS2p4azVIQTk2aG1XOFhlY0JVdE5CbV8tTXFfbHItWEF0dExSQ0pqNkpGcGJNVzNr?oc=5"
-    },
-    {
-     "date": "11.19",
-     "source": "미디어펜",
-     "tag": "p",
-     "title": "95조원 일감 위에 새 계약 얹는다…방산 빅4, 중장기 성장 ‘이상무’",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EclBuNkl0N3RmVlBXQnQ2T1hKbFU2LVpXdzF1VjA2TDJ0Zkkta0VFSlZCajAyZVpEekt1WmFEXzFvb1NtS3ZLLWRGdlBhcEdOcmJJRtIBWEFVX3lxTFBVSTM1aEpMZGloX2RBZmpNbEVIQ2RzMHE4RDRxRmwzZ3B1ZDI4UXJiUjFlMUtlRURZWjZsTjZUOXA3M0xuTjQ0SHRiQ3dkWWpPaWR4SndQNEQ?oc=5"
-    },
-    {
-     "date": "11.19",
-     "source": "뉴스웨이",
-     "tag": "p",
-     "title": "K2·K9 납품에 줄어든 K-방산 곳간··· 2027년 반등 이끌 계약은",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KZmNpcG85TFV0UmRWZVlsbnNrT2pBYmNINDVCMXRNU0dPUGxCVFkxMXRUNTkxWjh0OVMxeU5BZ2k0cUswcnNCMGFMNU83U0w5YTdXemxCZjRESXIzTlZvSVBhYTFPTWtCbUE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jMGdVQVNIWWo4V1VjZnhKbFh2LWxyVUtTSEZKeXJKTW1mWTBlZXZweW94cDVuZUtQVVJjR1lIc2poOUxsakh5b2tsVXFtRTlrVldWaTduSXRybXQyajNhOUZBbVZtdlBjMFEtdE5n0gFyQVVfeXFMT01EMVFMbHBBQzhVRkhCaHExWGYzM3AtbjN3TnFJVFZyWTk2UndLWm1Ma0hpbVZTdTFNT0pkVjVkMHV5UWI1WmJQT2xEWThCa19KRnAwdThmbzB3T2xwX2NKOWJVMGJyVEtsbzhjZWJfSXlR?oc=5"
     }
    ],
    "stocks": [
@@ -342,75 +342,75 @@
    "name": "바이오",
    "keywords": "CDMO · 기술수출 · 약가",
    "summary": [
-    "보로노이 주가 급락에 담보가치 뚝…대표 주담대 400억 차환 부담 (이데일리)",
-    "코스피 제약주 회복세, 코스닥 바이오로 확산 전망…대형 바이오텍 성과 관건 (메디코파마)",
-    "나노, 보유 자사주 전량 소각…해외 수주로 수익성 회복할까 (블로터)"
+    "카프리코, 뒤센근이영양증 세포치료제 FDA 승인 또 불발…주가 70% 폭락 (메디컬투데이)",
+    "“두려워 말라, 90% 폭락했다가 8배 상승하며 살아난 주식도 있어” (Chosunbiz)",
+    "프레스티지바이오, 455억 CB 풋옵션 폭탄 초침 빨라진다 (녹색경제신문)"
    ],
    "watch": "체크: 미국 약가 정책, 기술수출·CMO 계약 공시",
    "news": [
     {
-     "date": "11.23",
-     "source": "이데일리",
-     "tag": "n",
-     "title": "보로노이 주가 급락에 담보가치 뚝…대표 주담대 400억 차환 부담",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY2NBOWhrRmZRdUlrczdJeFN1c3NGMEoxZ1h1RFl1aTZCMFpZVk1ZeUs1bXV0NkxrZnZnUWlVSS1QZkJZWmQ4NVpGNC15RWJXSng3alFIVV9pbFZFTGNkN2t0dUFFVG84ZWdKMVZhMUtqeWVZRXlWUklnY21obnQ4Wg?oc=5"
-    },
-    {
-     "date": "11.23",
-     "source": "메디코파마",
-     "tag": "p",
-     "title": "코스피 제약주 회복세, 코스닥 바이오로 확산 전망…대형 바이오텍 성과 관건",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vOTJwOGxWV1Jfa1NkZlN3WkZFLWhlVWRMUzMwLW9KcWVfOE1YUmVNSzJwcnYwa2pHV0xma1o2RWNyVnRGZW5kZDNITVhtVEE1SDRhTlREU2thbEYtdGYzOGRQaG11R05qclQtRE4yQnpQZw?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "블로터",
-     "tag": "p",
-     "title": "나노, 보유 자사주 전량 소각…해외 수주로 수익성 회복할까",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96T09wb25UQ2VpdldGbTUxSWN6RXRPeTZ4YnBLWS02YTNFdWtiT09fYjdaUW9CNTJGRE9CQTFSdXVkTi1fTDZOQU9Mc2tNVmM2WDZ0UVRwTFh2SFFFSGNZNF93UkE3SHRS0gFsQVVfeXFMTnZDalZUdHVTM3NqSm1lUlBQdDlyU3g0ajZSV1FmLV9UbXVtRm4zaVlNanRyRV9tWjh4NGNNM2x1YTNLMXF0d2JvSGNrelZWVU9CY0xKdjJjOHF2dlU5NzYtTGhxeTZPbDRYRXp0?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "비즈워치",
-     "tag": "n",
-     "title": "[바이오 문해력]美 질주, 韓 추락…엇갈린 투자 시장",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RNjUtWFRZTHF5RzV1d3lYMFlpb3lCYzYtTkV5T3lhNWw0U1ZjaW40cld2bkNpZ3prMXRub3oxcDVPZ1dhMUdrOWNHVHVONUc2TkxwZVBmdUFDdnRfSHFsenRoY0hNUUE2VU1kakRUbw?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "쿠키뉴스",
-     "tag": "z",
-     "title": "삼천당제약 ‘주가 급락’ 정면 대응…“하반기 최소 2건 추가 계약 목표”",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsblNQb05rVmV0SHU1c2VKVXo5b1pYOWhKNFM1bXNZZVlSRWJLRlIwQlBhN3QzdVVrTU5sUmdualM0ZnhmM0Ztd0RpN2ZRdWNNNHRwYjA3X2NMNktqYndfcWduRQ?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "쿠키뉴스",
-     "tag": "n",
-     "title": "해명 나섰지만 의혹만 키운 삼천당제약…“업종 전반에 불똥 우려”",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzWEdTVlA1RFZpd191Sk5ROUxKWW9yWXBsWXZFb1lIVzViY2JmU1dSQjU1R2U1cXc0eW05Z3VxNi04STlYOVZ5bmd4VWVldnpNZVRzMHpubi1CMnRsQ2I0aEZrSQ?oc=5"
-    },
-    {
-     "date": "11.21",
+     "date": "11.24",
      "source": "메디컬투데이",
      "tag": "z",
-     "title": "미 FDA, 카프리코어 뒤센 근이영양증 세포치료제 승인 거부…주가 77% 급락",
+     "title": "카프리코, 뒤센근이영양증 세포치료제 FDA 승인 또 불발…주가 70% 폭락",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tSUtaaGZiVFhGOUlqNEYtVTFiZnJmcW1FY1BaVDZMeWRuNVhtNzhLMzlNVFItS3AyOEs4aHhmWXQzZTViYUZRNHpNdUlhTy1PRi1JTVM0S2FUZ0F0NWJlX0NvWWRBbkZ1TzBUVA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GT0F6YkRCelRwa1pGR29JV044aXN4QUJXWHNzV1dJeEtBYzBrV1Q5Y0stTWhwRHU5Qy1SUG0tc3lnaTVGdUVYWWhHaFdmSEc5VjU2RHlUUXU3T05Gb1lidGNKRGFrcGV5YzBzVw?oc=5"
     },
     {
-     "date": "11.21",
-     "source": "핀포인트뉴스",
+     "date": "11.24",
+     "source": "Chosunbiz",
      "tag": "z",
-     "title": "대형 제약주 줄줄이 하락…신약 개발 기대만으로 버티기 어려웠다",
+     "title": "“두려워 말라, 90% 폭락했다가 8배 상승하며 살아난 주식도 있어”",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PeHN5WU1hdFFpLXEteGpjRXdRaVV5Qlk2ejhJcTNSalZ5cmZ0T0R2UzJBaDdpSjNSY3hZUXlhWUlPVzF2OVFNQkVuRlVVSFR2cTI3MDRXbzhVTnR6Y0k4OWpMdy1WVFlxbjJxbHllSk5ldm_SAXdBVV95cUxNX0RuNkZibkJsU1BrYTBwQ180T0FCay1yTVVTWk43LTB4c2VsdEh0aGIyODJFclAtZnVQLXU0eTM2MjdUanlUOVV1bk1LZlpaM3BLYVpFZE1BZzZXZmNpaTVCVE45YXVvaDdEbHJYaklpa253TEFjQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYWJMNy1Xa2tSOUVCd3dzRldrOUczbDdvWGJEdVJZWUVaMENmdVI2aHM2a1NZcThobGktTE1DZDdGbk1DODhWdjB5Tm5ENERadzZKUnBfMkhBSG96b0pIY0JJU2FrRnNZY2F6T3dTU2xEcjNzRXZqU2JNdGNhSTctTFJwSmpJWFNO0gGcAUFVX3lxTE1TOFJrNGRHb1dvWFQ4UHdUQVBuTU9XdkhTU2UwMHdGaXZhai1WdUNzQ2RFMlJ3Yk56c1oyZjVfQlJSZ0NzVzlQSmlkX090MkRfOGExRFVNWnhaeXBuXzJiM2N5LVVDbHptdzM0RVhWNy1SM0JhSHdUZmpFa2diNkcyUDgyNHd0Q2NQTmI1dVZOMTJoN3ZJQzNJb3gyTg?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "녹색경제신문",
+     "tag": "z",
+     "title": "프레스티지바이오, 455억 CB 풋옵션 폭탄 초침 빨라진다",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvTlRINjF1T2xGbUVEYTljSUxzT3pvS3lCV1NxSlQ1RHUwUUNNZzNGdDA1T25jY1k4N05jVkd3SFlKRERHMzk2ZHJFU3ZHbUNCaFhGTVlYa3VGN0xtOGRQQy04VkFpSE9h?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "TradingKey",
+     "tag": "p",
+     "title": "Amgen Inc (AMGN) 주식 움직였습니다 상승 3.48%에 11월23일: 어떤 신호인가요?",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb2V2cjE5ZWd1R2VwZnlybDlhZDdxVnVmSkJrUFp3OWZwWkVBMk1QYTh5NUc2RzA3S3hkLXNULWRQZEo4Y1pDZXRVbDN4TWJPSXItQVdReTNDZTVJbzVmX0hTY2lSeld4dzhFeWVBLW9UdlUtR0d2cnlpWVdMeVdmcFpQQmhTWTNmaVpjR0l0RQ?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "머니투데이",
+     "tag": "z",
+     "title": "시장한파에 '바이오 대어' 잇단 좌절… IPO 후보들 긴장 - 머니투데이",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1icE9fR0JzbER5dzhSMUhmLTJ4Vk9VODcwSmM4a0J6bGV5TDNFMzlaMTRWUUZiUU1mM2JBMU5BeWxpOS1kM3lRcXNHQ3NEVXdaSlpsUEpYNHJHMXMxY2piMWVfQi1FcE1qNUJlZDdPUdIBb0FVX3lxTE1icE9fR0JzbER5dzhSMUhmLTJ4Vk9VODcwSmM4a0J6bGV5TDNFMzlaMTRWUUZiUU1mM2JBMU5BeWxpOS1kM3lRcXNHQ3NEVXdaSlpsUEpYNHJHMXMxY2piMWVfQi1FcE1qNUJlZDdPUQ?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "의약뉴스",
+     "tag": "n",
+     "title": "유가증권시장 1만 5000선 반납, 전 종목 하락 ‘충격’",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lT0plN2cyMm1DS1R2T0o0Q2VjR2pTT29ESFJEZzl4QzNCYjZ4Y1MzdVZZY0ZhRzhmb0dXQko2R2NLb1owUFlZNmRveTVvTWV4ZFBaSnJtRTM3WVhkaUJBY2NpRUprd1k?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "헤럴드경제",
+     "tag": "n",
+     "title": "“AI주 급락하더니” 떠오르는 유망업종…제약·바이오 다시 순위 진입 [투자360]",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0QXM3YktzUnJ4UGd6OGhCOXFibVJfVWdtU1BXT1otQXNqTEg4bnNNX2tta04xem9xazNGOFZQUWphUk5YYUtGNmd0ay1OcTF3LXEtbDdB?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "히트뉴스",
+     "tag": "n",
+     "title": "[HIT알공] 큐리언트 유상증자 확정 발행가 9940원…조달액 감소",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zU1hHZFpYR0NOU0JHVkduSXJMYVZDYTBCZXJjajBKMV9hTEZBNDdmeFVUVEl5c0ZMR211QW4ybDFNZVRsMFFFRUpMWU00SVZoVFhYYWM5aHg3QmVoLU4zM1U2el9iVFRURHNr?oc=5"
     }
    ],
    "stocks": [
@@ -451,75 +451,75 @@
    "name": "시장 전반",
    "keywords": "지수 · 수급 · 매크로",
    "summary": [
-    "\"코스피 반등 쉽지 않아…외국인 복귀는 12월 중순 이후\" (이데일리)",
-    "오천피 깨질때…외국인이 삼전닉스 던지고 담은 '이 종목' (MTN 머니투데이방송)",
-    "삼성전자·SK하이닉스 시총 하루 130조원 줄었다…코스피 5000선 다시 붕괴 (산학뉴스)"
+    "코스피, 외인・개인 매도세에 3%대 하락 4700선 마감 (한국증권신문)",
+    "증안펀드·자사주 완화 카드 ‘역부족’… 외국인 매도에 휘청 [증시 장중 4600도 붕괴] (파이낸셜뉴스)",
+    "[포토] 코스피·코스닥 동시 하락 마감 (아주경제)"
    ],
    "watch": "체크: 외국인 수급, 원/달러 환율, 미국 금리 경로",
    "news": [
     {
+     "date": "11.24",
+     "source": "한국증권신문",
+     "tag": "n",
+     "title": "코스피, 외인・개인 매도세에 3%대 하락 4700선 마감",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pcF80VjUwRVJ5REN5QWQwdWpCRl83bmtQR0gyaXpYT21ZN1hrMmYtclJONU1lNjg5TkhOdVVpbEtralgydC1ZRFJteERHdjUzai1JTEhYSEI1V01tZThSdkhIV245ZjhEMXVreg?oc=5"
+    },
+    {
      "date": "11.23",
-     "source": "이데일리",
-     "tag": "p",
-     "title": "\"코스피 반등 쉽지 않아…외국인 복귀는 12월 중순 이후\"",
+     "source": "파이낸셜뉴스",
+     "tag": "n",
+     "title": "증안펀드·자사주 완화 카드 ‘역부족’… 외국인 매도에 휘청 [증시 장중 4600도 붕괴]",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVEZhSFpYOG5XbWdhMllYMHJFV2VZc3JDREZmMjBncGFuaGNOUmZNY0JuUzF2dDhvdWhQaTVZaks1MU1EeWZfVnBLRUhCeGhoeVoweHJRRnF1TjFucmgtelBiYnVTcU1JNHVRaVRnbnE4bEsxM0xOcmtlMzVScWRXQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hYndEVWRqX0ZWLUEyelBURkdNVkx2S2xvT0M0R0RSQVV6S3ZhWHRCaFBjcTVuUmdWN0dkVnEzX1NYcE1wUERfSTg0UEJOOGktY0lXWWdpSjVOUQ?oc=5"
     },
     {
      "date": "11.23",
-     "source": "MTN 머니투데이방송",
-     "tag": "z",
-     "title": "오천피 깨질때…외국인이 삼전닉스 던지고 담은 '이 종목'",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vSGdRTDhQXzVlZWtwVWRZa21pMjVHSjlHWl91RmRYNFB6U1BibURmYWNzTjVreUdGNGFWX2lZQ1pxTEtVSWxDWTlOYS1HSTVwOWUxcVhZMTlnQTc5d2RN?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "산학뉴스",
-     "tag": "z",
-     "title": "삼성전자·SK하이닉스 시총 하루 130조원 줄었다…코스피 5000선 다시 붕괴",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5wRWdveFcwdUd6OEdHZVowRkJKeDBMdUpkY3pXeEdocFRUZngtZV9CS2dkalJma1Zxa3lxbzBhc2NtSVRYRkRaTENZV2liQkxndDJSNV9IdUpKaHg1VWpQTUJUMGFTakFtTzVB?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "파이낸셜포스트",
+     "source": "아주경제",
      "tag": "n",
-     "title": "코스피·코스닥 5% 동반 급락… 정부, 월요일 개장 앞두고 긴급 F4 소집",
+     "title": "[포토] 코스피·코스닥 동시 하락 마감",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TaklRNUZ6aVlIR3NQTGJIU0NrdDVfaGZtR3hndUhvVjRBU3djY0NPeHB2aGppbzB1dlBIaEtjY1luVEc5b1djRjRxYS1fUHprSS0teW4wYkxSSlRqbkItMnM5NVF6N3FBTkt2SVFpdVpkWUt4?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DY1NRcFprSTIxc1J6R0ZBazQzRU5KbW9kbUlrd25RR21RQnZqeU9CUVd4TmdVQ1FzX2tJTWxoZVBDMFZSRXZuMmN5ZlFVb3FPRlhXRnBwc2VXZ9IBWEFVX3lxTE5VTGlUYWlmLXZIdXFzZkRrc2FtRkJOWkh5ZkxhbDRRSHNTSGVRSmFXcEowTHlIUFF1VFg3MXBQbjVOMkp3Y2xTbG9xajFfd1RvVTV4Z1dNVHY?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "조선일보",
-     "tag": "z",
-     "title": "한국 투자자, 9월 미 국채 1977년 집계 이후 최대 순매수...7월 국내 증시 급락 영향",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2tuakhrZXNWbnlwOWdabzVCQ2lwRml2UkppVnVhY1VLMDgzNkh5cm1Wa3otdWxycGJqckkyb1pTUlIwSUpHS01YSGRyekVJanFvV2lpUnVyRHF0NktaV2RzNTJHUXotRFBpU2w1R3dkbFZRYnZKNGZMNk5MejZPY2dWY2ozUElkZ2ln?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "데일리25",
+     "date": "11.23",
+     "source": "충청매일",
      "tag": "n",
-     "title": "외국인은 231억 사들였는데 현대차 25만5000원 추락…‘15만원대’ 계산까지 나왔다",
+     "title": "코스피, 3.31% 급락, 4천708.54 마감..코스닥 2년만에 최저",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14WFVJV1padWc4cDludmtpS2Z4VHZyTTJfZGkxLXZTVWgxd1I4RXQ3NldZcUdDY19Ebm9NWlI4TVZCcUVPZGhnWVVWMWtoRFphUzZvdmlxcG01a0hSSXF5U1U5aWpIRF9aU3VFMw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xTERpRkRQR1hsVzBYNExpSE5sTkNiamJHZ1ozX25tLVJDV0hkWWVwS1M1Y0d3bnEtQUotNUhqRFg5MnFJTGJJSEtiMmhGM29tVHNvektjcHZOakZJV2RrVUh4UkdnOFdrZGc?oc=5"
     },
     {
-     "date": "11.21",
-     "source": "쿠키뉴스",
-     "tag": "p",
-     "title": "삼성전자 최대 실적에도 외국인 이탈…증시 반등 조건은",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YWWVrTzNzczloWnpaRHJ3UHRvdzdPUW5vX2xNZGFXMXp2dlBodmZUMDNSbzZrZFpPWjJfNllYQk1kTE1JNDRRZGxJM2NUNnpURG5ySkIwdi1GR3hTNnpJbHlqRQ?oc=5"
-    },
-    {
-     "date": "11.21",
-     "source": "녹색경제신문",
+     "date": "11.23",
+     "source": "팍스경제TV",
      "tag": "n",
-     "title": "나스닥 주간 10% 폭락·SOXL 32% 추락…삼성전자·SK하이닉스 '월요일 공포'",
+     "title": "美 반도체주 급락 여파…코스피, 4700선 턱걸이 마감",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRSmtoZnB3aVh0dGJta1pQRUtfaUZHb2hzRFVILXVhSzRwa1VheHh5VjJIS253bXJsWTRPQkdaWGlVaWcwUVZQSWlXbUZfV1gwaUwwLWxnYTNwcGhzdG5uZC1UdjBjOW1k?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BeDNFQ29VdU9PRVRxRW5SSkJ3UzVvRVhfNnd0UVNwbGdwR3pCMTAwLXdGOXp3ZFNmQ0p1N2pOOS1jdy1FNUxZeTVSSDl4blpEblVIUUw2VGVhdW1haWdST0RsZWV0MmZl?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "인포스탁데일리",
+     "tag": "n",
+     "title": "[1123마감체크] 코스피, AI 쇼크에 3% 급락하며 4700선 턱걸이…코스닥 2년 만에 최저",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZbWJubnpFZVFXWHBELTNEMmZrdXY2NmoyeGFRb09uSEExVFZodjFTcllkN0otb3dEZnhlaFAwdlhFMjJXVUtNaGRURWxySTRsY1JrNzZjcDVfZHpJdnM4Mm5aZ3VWN0w1LXNJV0hpQUI4NkVNWXc?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "한양경제",
+     "tag": "n",
+     "title": "[마감시황] 코스피, 美 AI 쇼크에 3.31% 급락…10개월 만에 4700선 마감",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zWkNLX2xYT3g1X1JfRDRkMHBudlNhejFFTjFPWksxc0xrY2RxdEJrdW5ONTZlZjZFVElpWUlObzNxMlBmZWhPcFRtb1lCd2laTTQxbmFYQ2NpQlNfbTlKS2tiY3VJenpRMHAwbTVvaHFGZw?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "KBS 뉴스",
+     "tag": "n",
+     "title": "코스피 3%넘게 하락 마감…코스닥 2년 만에 최저",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuT1AtUEw3MzhvNU1lWmhuak1FQ01qeHp1Y1VnclRSaWQ2MEhrTkpzOU5UUXJNeHlSdE9TZXhFUng3b3g1OElXbEl2Q19fVG83RVBUSXF6eksyb3loYnVSdnVHWkJQZw?oc=5"
     }
    ],
    "stocks": [
@@ -540,75 +540,75 @@
    "name": "원전",
    "keywords": "SMR · 원전 수출 · 체코",
    "summary": [
-    "두산에너빌리티 주가 새주 향방은…미국 원전주·나스닥 급락 '변수'되나? (CBC뉴스)",
-    "우리기술 6.93% 하락…원전주, 수주 기대 넘어 실적 확인 국면 (CBC뉴스)",
-    "무 가격 한 개 1,843원…김장용 무 10kg·20kg 얼마인지 확인하세요 > 뉴스 (진해신문)"
+    "고령자 자전거 교통사고, 배려와 관심이 필요한 때 (전북도민일보)",
+    "경남도, 두산에너빌리티와 글로벌 SMR 생산거점 조성 논의 박완수 지사, 송용진 신임 COO 만나 지역 투자·인재 채용 확대  (경남저널)",
+    "美 AI 쇼크, 코스피 '출렁'...한국금융지주는 '선방' (초이스경제)"
    ],
    "watch": "체크: 해외 원전 수주 발표, SMR 정책·인허가 일정",
    "news": [
     {
-     "date": "11.23",
-     "source": "CBC뉴스",
-     "tag": "n",
-     "title": "두산에너빌리티 주가 새주 향방은…미국 원전주·나스닥 급락 '변수'되나?",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4Qjhma1lPVlNxOHc0bmhCNTNaQlJWbWJFN2s4dW9VLUI3dkVtdHBrZG40OWtiOUdHRnB5dHlEYU9PR0dibHpEMVZlN2x3UzFVNm9URDdZNGlZbVZpbjBibllVb0dIOVRS?oc=5"
-    },
-    {
-     "date": "11.23",
-     "source": "CBC뉴스",
-     "tag": "p",
-     "title": "우리기술 6.93% 하락…원전주, 수주 기대 넘어 실적 확인 국면",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44Y19rTlpaa1NOUDFwMlhwZFVmNFlMUzhjbENkcTdaWVZxcko3MEdVZTZVWWNRMHdSRHM2anAtWjc2TXVGbmtQTVB2ZXZXc1lNMV82WlhjdUgtcmxEZG5ZR294QnlGRExn?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "진해신문",
+     "date": "11.24",
+     "source": "전북도민일보",
      "tag": "z",
-     "title": "무 가격 한 개 1,843원…김장용 무 10kg·20kg 얼마인지 확인하세요 > 뉴스",
+     "title": "고령자 자전거 교통사고, 배려와 관심이 필요한 때",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBfSzZaa21OSm1IVXlUa1laZEVYaEc1SEkydzF6WGZHTDRkZlNmeWZaVkhiTXFnOTFIUDloTFBkYjAyZUNOZzA2TVpLNG16UTJlcmNiYTNiRVdNclNPSlFPMEs2WmliM0JOYkRMdUs4VnM4d3dJTGQxc2VUSmI?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2NrT0t6NjFZZTNPNnZraS1wNXVWOFl3cHptRnBVTW5DdWZRTmZUOHZaMVI4cGVmMjFOTkFSa3hKRVFrbGh3RjlYVWxqdGF6ckYyNVByYXFrMS1oeXpTN0F0alJ3amdPWEZZZXAtN3B0MmVFa0N1dzVrRmNxblFWSnU1cHlkeWc?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "핀포인트뉴스",
+     "date": "11.23",
+     "source": "경남저널",
      "tag": "p",
-     "title": "수주 기대만으론 버티기 어렵다…원전 해체주 투자 기준 달라지나",
+     "title": "경남도, 두산에너빌리티와 글로벌 SMR 생산거점 조성 논의 박완수 지사, 송용진 신임 COO 만나 지역 투자·인재 채용 확대 당부",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10TGo0dmxwbzRtN0QzM1ZtM1lUUXp6R3VCR3Fkb3lIeTdkQzlZTHBXdnVTVXh4dWVhM19ySXM0Y1p5ZFFZNDE4UkFnaF9lN0RFOHNZdmI4VndqSHBUeFVUSjk3SUUtSEo5OFhoQWhGUUxOSW05cGZZ0gF3QVVfeXFMTXRMajR2bHBvNG03RDMzVm0zWVRRenpHdUJHcWRveUh5N2RDOVlMcFd2dVNVeHh1ZWEzX3JJczRjWnlkUVk0MThSQWdoX2U3REU4c1l2YjhWd2pIcFR4VVRKOTdJRS1ISjk4WGhBaEZRTE5JbTlwZlk?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zSmUtQk11Rjh2ODZFTG9GSFd0NTI3OE9CTmdpN3FaQWx1UHpRbDd6WVJTeFhVMmdMWVhWUjNZY0YzMXp4c2ltR1pDSEdpeXNjUEs5bGNZTkxUc0x4REJRYUEtc3VtendEQ3I2eNIBb0FVX3lxTE14UUl4aGtPRllNdUJlbkFjVVZzckRlRXdXbTg0UElINDdOdENDbWlPT1loc2hxUzhiVi1DZ3VNcGlGNkV5MzVtdHNPUFRjalJMYlJwcDFPNGtSQTI0bVg3VEhpWEtVeEV1QllCVXR2cw?oc=5"
     },
     {
-     "date": "11.22",
+     "date": "11.23",
+     "source": "초이스경제",
+     "tag": "n",
+     "title": "美 AI 쇼크, 코스피 '출렁'...한국금융지주는 '선방'",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wLXU5VUI3NmpuQXc2Nl9LR21FNnlERlVVQm1qN3BKc1NvUkJSbldPaEpyT3F1cndWd1lUWjhnZ0Zhb0VhOUtWeEdLeTZoUzJtUmh0V0xHVWNFbVhmSTZLSTFWUEc1NklIdTJCa2pVVld4UUXSAXNBVV95cUxPMC11OVVCNzZqbkF3NjZfS0dtRTZ5REZVVUJtajdwSnNTb1JCUm5XT2hKck9xdXJ3VndZVFo4Z2dGYW9FYTlLVnhHS3k2aFMybVJodFdMR1VjRW1YZkk2S0kxVlBHNTZJSHUyQmtqVVZXeFFF?oc=5"
+    },
+    {
+     "date": "11.23",
      "source": "전라일보",
      "tag": "z",
-     "title": "전주여상 총동창회, 송년회···임양순 동문 500만 원 기탁",
+     "title": "전북 학생 3명, '전국 이중언어말하기 대회'서 모두 수상",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Pc1ZHMWN3bnF0dDdBN3g3d3lKZGxBWER3VlZhalJ0OXp3bXlMQnNjREhfMWNuaGFkWnYyY0p0VzA1bDhxU3RKSjlHUmx1ZjFGVk9Yc280Wm9aU3NvYnY5Yk9YZ1duNGtxNEVCVWR30gFwQVVfeXFMUE9sWnBrWlZBNlF1OTB4VWxCS0Rpc1VjM3QzcEFNSUt0c2x5UkpQS2l1Zk85RV9TTm1VV1VmdkRYNkFVUU1fZk1uNVEybHh3RVJESFI5RjhLUlRWRjhjUFprMWVsYWZtNzNCSXpZd2dQdg?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jLWtubC1jX21iNkNzcnZ3LXRuVGV3Rjk5QjZDdkdHVERHdmhXLVpWbHg0T0x4UzVYTWdDcjFveVVfbDJqVE40eUt1bGtFMG1JSVR0bzZVREhBX0NNVGZyX2ozVFFLb2pYYmNQLTBKR0jSAXBBVV95cUxOYy1rbmwtY19tYjZDc3J2dy10blRld0Y5OUI2Q3ZHR1RER3ZoVy1aVmx4NE9MeFM1WE1nQ3Ixb3lVX2wyalRONHlLdWxrRTBtSUlUdG82VURIQV9DTVRmcl9qM1RRS29qWGJjUC0wSkdI?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "CBC뉴스",
+     "date": "11.23",
+     "source": "전북금강일보",
+     "tag": "p",
+     "title": "전북 학생 3명, 전국 이중언어말하기대회서 특별상",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBuTWJXblZyYmJEeGtrRng3Vkl0QXFlRUZPb0EyemRWR25kZlMtZUNfV1JjMGdodlJueG44V0hIY1k?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "핀포인트뉴스",
      "tag": "z",
-     "title": "두산에너빌리티 주가 8%대 급락…원전주 애프터마켓 ‘희비’, 한국전력·금화피에스시는 상승",
+     "title": "원전 르네상스에도 차익 매물…금양그린파워는 상한가 직행",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NT3h0VHRtUFBzdEZjTmxfUGg4R3hObW1GN09fdXl4Szk3NlFtRmNEXzJ4N1phR1RFbEk5UDdxaERjVHhvV3pGLUhWMTNXWV9NaG42a2lOaWh6VnRjbWZJdmJkYTUwUm5B?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05UWk0cU5QajMzUVZ0NVY0bnBKUkRjNkkycjV5bHVFMmM2OUQxbFZCdnpzMEZXSl9iNWRJcWtkcnZwU2lIbmt2T0ppamF4bHJNYnhFZmx0RnVLN1NMOGdRWmd2V25aQThlVEFNZ0R3ejVHOUXSAXdBVV95cUxNN1FqVkQwX1RZNlVsWDBkdldfZFZySXZOeXJLYmF0XzRmOS16WDVDb09hcHRxaGI3Q3k0SzJGUmRwcmhCdlFHZmJ6WXlrZFBsQWM5X0tzVExmVXIzX0ljUWM2ZUg3N3ZfN2tiZkhRSTBhVXp6VUpoOA?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "에너지신문",
+     "date": "11.23",
+     "source": "프라임경제",
      "tag": "n",
-     "title": "주유소 기름값 27주째 하락…휘발유-1854.7원, 경유-1841.5원",
+     "title": "'27주째 하락 행진' 주유소 기름값, 여전히 1800원대",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VLTIzQVc4dVpDVmllaXFlOThxa21pTHlrM0F0U0RsTFZMOUk0Z3VnbFFFRzJKQkZmdjh3MFMzeHRlUG5PTE5ZQ2Z0QlB0ZlFuSzRibmFaOGFqVjNUdlp3Q1FQWTN5TzYwZnJOd0R4YllDQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9La1dTYW5OYWdaLV9XLWp1Q3pMbjFQenYtVVA3NHAtM3RpNmZZN3B2bFVyOE94Qm85N3FsNGZDbHJNQ0poTjVVYl9TVnJWTThZMGZyS25CMFdGSzQ2VERSXzRFRUZDb1ZjMExjdmNPUk1Ddw?oc=5"
     },
     {
-     "date": "11.21",
-     "source": "M이코노미뉴스",
-     "tag": "n",
-     "title": "전국 주유소 기름값 27주 연속 하락...휘발유 1,854.7원·경유 1,841.5원",
+     "date": "11.23",
+     "source": "내외일보",
+     "tag": "z",
+     "title": "진안군, 2027년 예산안 6,109억 원 편성",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGWkhtZ2ZBOVNtVnl1ZmRmeTQ2VktOWExwZjVPM20tRjBwUVdHbXJpTWdiY0l5OEdQdndyMkJOVWpsZGpLMEM0QkhscmxsV3EyOWp6bU9jTEM2amcydUtuQnpaMExKQVE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUktDandtUjR6b1JpSG44Mk51VGJUNVNoRmlWWWd4T1NOc1dZOENuaUQ5UWdXSlZBbGhlSkZoZ0Z5VUZiejVWU21KcjVKV3Y4ZzhTOXlpSnJETlFnRms0VWJVQy1iMklsTl9hQm1NVQ?oc=5"
     }
    ],
    "stocks": [
@@ -649,75 +649,75 @@
    "name": "로봇",
    "keywords": "휴머노이드 · 협동로봇 · 감속기",
    "summary": [
-    "코스닥 7.7% 급락에도 레인보우로보틱스 12%↑…CES 기대에 로봇株 선방 (서울경제)",
-    "[급락장로봇주약진] 코스피·코스닥 7%대 폭락 뚫고 나 홀로 12% 급등… 반도체 장비주 시총까지 제친 로봇주 (CBC뉴스)",
-    "로봇주 주가 급등…레인보우 시총 4위·로보티즈 10위 : 한국증시 (재경일보)"
+    "[종목상담 주식민원처리반] 신규 상장 로봇주의 좋은 시세 흐름 기대 '브릴스' (MTN 머니투데이방송)",
+    "상한가 두 종목 나온 로봇 섹터, 반드시 확인해야 할 로봇 대장주 실전 전략 (네이버 프리미엄콘텐츠)",
+    "미라콤아이앤씨·레인보우로보틱스, 제조 RX 통합 서비스 협력 (elec4)"
    ],
    "watch": "체크: 대기업 휴머노이드 투자·협력 발표, 테슬라 옵티머스 소식",
    "news": [
     {
      "date": "11.23",
-     "source": "서울경제",
-     "tag": "z",
-     "title": "코스닥 7.7% 급락에도 레인보우로보틱스 12%↑…CES 기대에 로봇株 선방",
+     "source": "MTN 머니투데이방송",
+     "tag": "p",
+     "title": "[종목상담 주식민원처리반] 신규 상장 로봇주의 좋은 시세 흐름 기대 '브릴스'",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92dWFkMFRVbjRWNm9RNk1CeUUwR2NCTk9KR2lNTW1jcWhrN1J6c0NRd1VXMjZrTjZDSldudG1XVjZ1bC1TQ2RCZndENjhseklvNHfSAVNBVV95cUxNWkw0cEdyeGNvMWIwNFFvb1pNMXB1dnhPLU9sa0VxSEFLUlBwbTM4b0JIQWl1aC00UDEyU2xEUDlhUE5jR20wUE92WW1VMngyS0dOaw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nWlZkeWk3a05HVGdGTHdaa0k5XzNFNERGbWZJWkR0VTVJcG9TaElWbzRfSnZWQVBuLTI3akNyVng1YUJyeW1qTjJDNENjVFpvaW9sY0tOOGFUamxqaTVB?oc=5"
     },
     {
      "date": "11.23",
-     "source": "CBC뉴스",
-     "tag": "n",
-     "title": "[급락장로봇주약진] 코스피·코스닥 7%대 폭락 뚫고 나 홀로 12% 급등… 반도체 장비주 시총까지 제친 로봇주",
+     "source": "네이버 프리미엄콘텐츠",
+     "tag": "z",
+     "title": "상한가 두 종목 나온 로봇 섹터, 반드시 확인해야 할 로봇 대장주 실전 전략",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1peXNuTTN0X1Vsel9KeEcyM1FvSE0xdTYzcU5LMkM5VHYzc2Z4MDVsaTY1Q2JFbGVIMEpCZU1KZHJkc3FNU3owUUxGYW02OExyRnVQQVFHUUpOTzBJYkI1WS1xaU1JcWUy?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM0NjajQ0NDdxbjctWjVObkFCa3NDaXBVaDdzZDNFUjhxZi1zdVJEeDFQU2dSOGV4OFNzZTBYc2R2QmUxbmNfSU9pNHNCUWlvMGJXZWw5RXRzeUhBLTBmRGw2U2RDdGZkUDNWN21oOVNnNWxmckdNZ1B6X2ZPTTBucGFQOWtDdDRSWlE?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "재경일보",
+     "date": "11.23",
+     "source": "elec4",
+     "tag": "z",
+     "title": "미라콤아이앤씨·레인보우로보틱스, 제조 RX 통합 서비스 협력",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSS2x0T3ZkYTA0RTBuUUtlUGpKM1dWZWRtNmRKYVc2WFNBT2tTWW1BYWE5VFpManVsbDRBM2VWa0tDdlBweEd5WVUzMUZYNEpWcThwbjhjSWlLcjVjQU03a1JIRkFJODlCNjFTS1dB?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "초이스경제",
+     "tag": "z",
+     "title": "코스닥 '뚝'...로보티즈·현대무벡스·휴림로봇·RFHIC는 '껑충'",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tYWNqdmwxdnJtNHZxZkJmczFmSVV2STN4MW1WeUZGN3JnTzNKdzRMUzJIWGZfdEJ2WkhqLXh5bjZIMWFuTGJydXhTVnhrZ3pFNHV2Uzczb0xtQU1WR1dNMlVWRkNSQjVKSm1Kd2lJVmfSAXNBVV95cUxNN0U0YlZGbHVRWmROazVSMmo1d3VNaGpkR01YTzRIY2t3WXVfX3NobE1TQTlBUFhlTnY3VFBOZEltdEVDVVlrLW03ZTJLVDNOSldEbTFXTUc0Z1RRdGU5TTkwZzdCWXFzYTdNMEFGaWVYR3BN?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "아주경제",
      "tag": "p",
-     "title": "로봇주 주가 급등…레인보우 시총 4위·로보티즈 10위 : 한국증시",
+     "title": "​​​​​​​[中 증시 마감] 증시 부양에 상승...대량 상용화 기대감에 로봇주 폭등",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mMWVYbkZYeHYxSnRfMVFnQWp4NnIzRHdZcEZjRmVUbDl4TUFGN2J4V1ltVUo4eENJMTNPNWRzbWx2MnZRbDk3a2NIMA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ga0V1bmMyZjBPZkI1d3p3Q0hINXpCS2dlWUtmVU9wdW1vS2NMcGtWUXFBbTZtQXRRUVZ5b2F2Z1BBN2MzVl9SX0pVdTFtYTBTbDFvcFBfMDV5d9IBWEFVX3lxTE1JT3pkMjdwWVdhdGdkZjBFTEpzaDRUTGwxbnNjbUdPRngxcmlaVHFab2RsRGJ1bXRadE1KNjVGR1R3Qm9SYkRwT3BNU19HOE9vVm9sNWlTSVQ?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "티스토리",
-     "tag": "z",
-     "title": "TIGER 코리아휴머노이드로봇산업 ETF, 상위 3종목 44.24%",
+     "date": "11.23",
+     "source": "잡포스트",
+     "tag": "p",
+     "title": "빅웨이브로보틱스 13.06% 급등…신규 상장 로봇주에 거래 집중",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPYmJIUmJBUE04eFN3V0VZTFpYeWYybVF5Vm5CdkVVeDZLQW1uTFA1OFJqYmhOalZqVU5zNVRoVXhUN0d2QnU1ZWZXLXlxRFQ5QU1DS1A4T2o2d1FMVlVqS0JmWE1WSXFKcUdVVThrTWJYSGo2aXBRbmJVcXlTWlZDZ1poNGRncEFaaG5rNXVQdGF0MHMzbjlVam1QcHpwMzlab05EVmFXelB3R3gtRi0ycVlWZzd3SlZOSXpnZTdDZjJyWDlRRVY2SGFVZzV0R3JqMGtBSnNHWFRjSVNQaTNkcG1TMTJqYW5Td3pUTVVnSVJBREpxcGxCUTRUcUxPUzhuSUVEb3FTYnA4dUFpNmY5NndrbERsbTFBT281UDREcUgzSkpvSlE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11cDYwS29WOGdwUlRSS1AycTMyXy1CaFltbjZrd0RvMVFIbVlYdFlMb05tamFQZXk5MXpzaExxMXVvd2xXa3A5bVBETk1OWEdyckdDb1h4cmZYOHBKbnI3N0xrMWRnUjBYbENSc3lR0gFyQVVfeXFMT2xGeEVQUjBzcFFHMzQ2Zl9TeFZDZmhRUDJJdndXT216TTBsVGdDcXZkMklvbk1aNzloeDNlSkhLN2J6dU1CM3g1dkhCUG5FbkNEVG1DUElDOS1HTW5pVlRwS0lYTjRGYXlNVFpxN2JuakdB?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "매일경제",
-     "tag": "z",
-     "title": "코스닥 시총 상위 10등에 2곳…이젠 '로봇' 시대",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Sbnp1V1BBUmRHUWgzeHdlUjFQcFJ4WUV3SXoxZHFhMmpFUkJlR1JULS1NbG9veURsNXduN0R5QnFYdzdtZ2RnWDdndHJSX1dWS3c?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "핀포인트뉴스",
+     "date": "11.23",
+     "source": "잡포스트",
      "tag": "n",
-     "title": "미래 먹거리라더니 줄줄이 하락…레인보우로보틱스·뉴로메카도 못 버텼다",
+     "title": "레인보우로보틱스 40만원대 약세…휴머노이드 사업화 기대와 적자 부담",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vbGJkQjBsVHJIbmJGbTdKRVRnODVNeVlTM0x5dC1wNTRIeGNQQ0pfUEVVMXJiZU9nOTh2MzNBVHZ3RmNWNkhUa2FiRVV1bVlqbmxoY3BsOXdqMW94RDN0VnJtY1I0QUJPOTdHYnpJTEVmSnNLc2RB0gF3QVVfeXFMTm9sYmRCMGxUckhuYkZtN0pFVGc4NU15WVMzTHl0LXA1NEh4Y1BDSl9QRVUxcmJlT2c5OHYzM0FUdndGY1Y2SFRrYWJFVXVtWWpubGhjcGw5d2oxb3hEM3RWcm1jUjRBQk85N0dieklMRWZKc0tzZEE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nNm1adTNmenRQdURqejBNN2JvS205UzFrbVVPN0M5Rm5laDhLNmU4LXduS3JJQjZBOHlFLTdhRjRpTGs1amVycnZzdkNMb2dxd2gxUTN2eFdmR1dQYkpFNUdUS0xpVkJZVm9vMkxB0gFyQVVfeXFMTW8zbmp0NUh3R3dKencwTFZfb09ranhTc2hpTkJjVEZyekVxQS1DTDRVTF9ueDg1Yk84TVN0NzRSUmY5TEJyQU1XTDhMU2lJdmQ4UFpBU3pOT0lOVG9wVklILVgwc2Zrc0tKYmRUM192UlRR?oc=5"
     },
     {
-     "date": "11.22",
+     "date": "11.23",
      "source": "핀포인트뉴스",
      "tag": "z",
-     "title": "대기업 투자 기대 무색… 에스피지 7% 하락, 로봇주 투심 얼어붙었다",
+     "title": "휴림로봇 상한가…피지컬 AI 확산에 로봇주 '들썩'",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95TEpoNDdvcHhENDFFcFZsYkxlbmFEVWRYcFBNWmdlbmt6MUxJa09QVFpfeExBSU13ZG5UOFhpU1lRWWw0OU5ubl8zQ0plS2o3Q1dWRUhya0U4WW1heWZXTFFncUtuMk9jc0ZkZ2ZMbS02STDSAXdBVV95cUxNV0VQNVJEekJwUHA0X3FkYmltUml1U016UXFqT2x1QUpMakljemtFVy1RYjRWUEhXcnVscmVVLTltV0xjT0wwLUJQVnBsZGFqTjQ1UDBfdHV1WDVlbzdCY2oxdk4xQmxnNk9ITUxBNk1hc2hQa2hFVQ?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "CBC뉴스",
-     "tag": "n",
-     "title": "레인보우로보틱스·로보티즈 등 로봇주 일제히 하락…두산로보틱스·에스엘도 약세",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0OEZ6SFhEWER2eXJjcW0tRU5mRUhUVXN0VEUwN09CWTVPeU9RYmxrSmh3RWlIUEJHcjNfYnFseVVaSUwzdkZ1SXdFSEZBWXo2eHFtRmdiOTJsc1Z2MUZXRHc3eGFGUGF0?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80cWpwM2dpMVFmREhNQkl1LVZ0enhUbzloSG56ald4Vll5YjY4bGt6SEJqTi1MSlk5cTdQWGs0cHdwVUZoRHpOWjNaWXA2UXZZcWRNcVkxSHRsX24xelVLVDlfeFgxcGllTDA2aDM1Y0hOekXSAXdBVV95cUxPa0RUZHZfQUNHV1Bub2JaZDFmd3JOblh4Vnh0X2JfRTNaSkFaTWc4NVk0Q1JUdlYxOWo1MEpVNVFCdDlYbzEyRkxzM1VobTFINElJdW5jRFljcWMtRDZWYjZVLUk1eUxTUG9mSV9UVExrMm1vWWJMbw?oc=5"
     }
    ],
    "stocks": [
@@ -753,75 +753,75 @@
    "name": "조선",
    "keywords": "LNG선 · 수주 · 미국 MASGA",
    "summary": [
-    "삼성중공업, 조선주 조정에 6.19% 밀려…1만5,150원 (잡포스트)",
-    "조선 3사, 3분기 누적 R&D 투자 4376억원…미래 기술 확보 속도 (서울경제TV)",
-    "HD현대, 美 조선 TF 현지법인으로 격상…'마스가' 공략 본격화 (한국신용신문)"
+    "안 팔리는 HD현대 EB…트럼프 레임덕에 조선주 기대감 '흔들' (인베스트조선)",
+    "SK증권 \"조선주 상승 동력 바뀐다…HD현대중공업·삼성중공업에 쏠린 시선\" | (핀포인트뉴스)",
+    "NGLS 승부처는 '조건' 보다 '시간'···HD현대·한화, 현지화 갈림길 (서울파이낸스)"
    ],
    "watch": "체크: 신규 선박 수주 공시, 미국 조선 협력(MASGA) 진행",
    "news": [
     {
-     "date": "11.22",
-     "source": "잡포스트",
-     "tag": "z",
-     "title": "삼성중공업, 조선주 조정에 6.19% 밀려…1만5,150원",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UaXdwQzc3MEZla0pXdkVxTEU4LUstMDRKRGVJcEh6Q0J3akNsNkN0X0pKbU9rNlFtS25oNEl2VG9uZFE5V29rVU1LcnZDbndjZXVwZ2pPdkJzRUs0Q1BmWHd4dGRLT3hPVkI1enVVdWNoQdIBckFVX3lxTE9UaXdwQzc3MEZla0pXdkVxTEU4LUstMDRKRGVJcEh6Q0J3akNsNkN0X0pKbU9rNlFtS25oNEl2VG9uZFE5V29rVU1LcnZDbndjZXVwZ2pPdkJzRUs0Q1BmWHd4dGRLT3hPVkI1enVVdWNoQQ?oc=5"
-    },
-    {
-     "date": "11.21",
-     "source": "서울경제TV",
-     "tag": "z",
-     "title": "조선 3사, 3분기 누적 R&D 투자 4376억원…미래 기술 확보 속도",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0dTFfTmVXM1dKR0dLVWlNSXpLWUN6OUhqY29tMGoweThlREtLdHdhY3JxUk5lMko1OE81Tm5FNFhXTnVaSlFJUFFOLXBIV2V6VnQ3XzZSTVoxdExVOXRlRko4UlE?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "한국신용신문",
-     "tag": "z",
-     "title": "HD현대, 美 조선 TF 현지법인으로 격상…'마스가' 공략 본격화",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CanBLQlZjcjV2OFpXODJWUXI1M01FR1gwZ09ZWmx3Tkk4Zk1UYlpzeFZXZVI2QnZLN2cwNTRHei11N1lOdm9vTFF5TkNfSUVJUUxaYU5zNkljdU1aMEZRMHlTbXQ4NERsQVpN?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "매일경제",
+     "date": "11.24",
+     "source": "인베스트조선",
      "tag": "p",
-     "title": "수주호황 조선 빅3, 기술경쟁에 돈 쏟는다",
+     "title": "안 팔리는 HD현대 EB…트럼프 레임덕에 조선주 기대감 '흔들'",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81SW50aFBoLTh4Ymt5N3RGNmFzdmVScnFYTm1NWU9WYjFPa2lrd2VlV3hrSlliMk5wUjhYRG9GX1YwanN0N0ZwQ24wUUY5dlhscVJ5Q3dR?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMEE4TkozVkJ4cGJfcjJkcm5YWHJjaXhzU051SUU5dDZmQ2NOdXlFcHlrSXZuRmlVZFBKak9MRTlhazZLRGJjRjJGV3oxR2tvRmtOUVc5cmJRcmdvaDh3MHlJS1ZPV05hREZLMTVvcDd3bjV1U0RDZC1fZ0NxbVhHSV9Hcw?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "www.ebn.co.kr",
+     "date": "11.23",
+     "source": "핀포인트뉴스",
+     "tag": "p",
+     "title": "SK증권 \"조선주 상승 동력 바뀐다…HD현대중공업·삼성중공업에 쏠린 시선\" |",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fZnN2T1hVdUs2N3dKbG1BQ0VMekhuTTJJTmgzZk55d2JNVG5zUVdPWnZLTjFHUjdMMThDVllpNWVmZnJPOWUyM0t4d0RwM21PNk9GUEZCaGVkSmtDZDdTNGlscEdIc1ZsQUFwZkJ6SS1sVFlnX0xF?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "서울파이낸스",
      "tag": "z",
-     "title": "中 양쯔장조선, 친환경 선박기지 신설...韓 고부가 선박시장 압박",
+     "title": "NGLS 승부처는 '조건' 보다 '시간'···HD현대·한화, 현지화 갈림길",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpUHhldFhhTGRQQUVJVHhVMmpNbkYtMXlPZjI4dWFiM1JUelV2cGFLdnNkTmtwS1FCa2xlVlZWUXd2VHNZckI1RmNVZmg4c0FvdDN1MjZhcmptS0pzclpDQjdlU3VtdVlN?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01VC1WS2dtUmg1QjJQS2JPVms1a0NhM3BJMi1IN19EV0kwdGNENlpBVExpOThZMkJKMV9McVBKb0RwckYzNWdGWmduR19kZGg5LWRrSy1aNi1hbVZ1Z1hTeGFlZldpS2M0Wmc?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "CBC뉴스",
-     "tag": "n",
-     "title": "HD현대중공업·한화오션·삼성중공업 등 조선주 일제히 약세…코스피·코스닥 급락 속 향후 흐름 주목",
+     "date": "11.23",
+     "source": "머니투데이",
+     "tag": "p",
+     "title": "K조선 수출 8년만에 최대..무역흑자 3분의1 책임졌다 - 머니투데이",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QTXJ3ZU95MHl3YVl4cENVUDVRdDF4SGxPZnl0TE0zYkRtczVnSTdOUFp4QkpjVWdxdWNlN2FqMGJjU1VvMWhXd2psOHc5LWNtMDhNVGRyMlBwRWpyeDlDZE1jb0dZMVhz?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YODVNRmNzNFJzX1pweFFnV2o0WVQzdUlpM1hHdGNURlgzaHNaQ0NhbWg0dGxMN29lVUY2VTFySWJfTXhVYVZWS1ktT243VkNOSnlfaWI2Y2lXR1Budm9fd19TcXhDc1F4eWVpVmtkVXVjQdIBckFVX3lxTE1YODVNRmNzNFJzX1pweFFnV2o0WVQzdUlpM1hHdGNURlgzaHNaQ0NhbWg0dGxMN29lVUY2VTFySWJfTXhVYVZWS1ktT243VkNOSnlfaWI2Y2lXR1Budm9fd19TcXhDc1F4eWVpVmtkVXVjQQ?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "파이낸셜뉴스",
+     "date": "11.23",
+     "source": "M이코노미뉴스",
+     "tag": "p",
+     "title": "HD한국조선해양, LPG선 2척 3084억원에 수주...연간 목표 95% 채워",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByNi01aDN6TXI3dEZjUTZHejFSdFlEaUlLSEJram1mcnhVTG00Vl9pT0V4cy1IR3h4WHdUNFZiX205QkRVd1pIMHhxMi16ZEplaFkxSExXRE4tYTIxc2w2NHAyc2NoOVU?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "해사신문",
+     "tag": "p",
+     "title": "HD한국조선해양, LPG운반선 2척 3,084억원 수주…연간 목표 94.9% 달성",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sc2RUVkV0RGQ0OFduM01VV0N0bklnSE44Qjh5aGdZc2ZodWxPT2l6N0Nfc0V1MUtqMDdOWF96UDFrY2ZCUTduLUNEVHpRS3lpVGlCUU5tMG1PR05jSnh3WmVpUDFCbm9tR0E4?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "매일일보",
      "tag": "z",
-     "title": "美해사청 HD현대重 방문..NGLS 경쟁 본격화된다",
+     "title": "VLCC 한화오션·PC선 HD현대…탱커 호황에 전략 차별화",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kVDRmZ1hqNWVPS2dWZ2NmQndnM2dGaElUMndOeUlBNU8tNGZNYkZlYWo5eVF2aWNPdjBnMFF3cmJ3TFZ4aFFRd1BhX0tTTVVsQTM0OGJRSl9hUQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MVzRqd0ktWmlkeE5UTFB6d2U5TThLcHNHcWRmTE90bHF3MndMQWgzeVNmTEhfYkRCeGNjNXp5Yks0dE5Mc3NBQzctdWtVeVZZcjZYUThTUlI3b3F3NTdEZFV4ZVI?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "지디넷코리아",
+     "date": "11.23",
+     "source": "소셜밸류",
      "tag": "z",
-     "title": "AI 조선소부터 K2까지…한·노르웨이, 10년 만에 협력 테이블",
+     "title": "삼성重 새 대표에 ′해양 설계통′ 이왕근 체제로…FLNG·생산 현장 거친 첫 내부 출신 CEO",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MWkZZVldqRzdSMjljYzF4UWJBQ29QeDc2c1RnTzVFcF9xb2Rab1dhWVZHSEg4NDgxZ1lkMjU5dTZ3UUU4VkJxLTRkSlZSaTRDdE5LUXl3?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqUkxjM0RGZXF3dF9YelVoSjhhcDdJVk1KRExzcmVHa1FLQTFRMm42dVJPX3ZtaENfYnhQYU04d2RnQ25ic2lzM192MG04OC1rX2V2ZjRXcm9hSlhkQUVRZFFWSDdaYnZ2WmJ5bdIBbEFVX3lxTFBqUkxjM0RGZXF3dF9YelVoSjhhcDdJVk1KRExzcmVHa1FLQTFRMm42dVJPX3ZtaENfYnhQYU04d2RnQ25ic2lzM192MG04OC1rX2V2ZjRXcm9hSlhkQUVRZFFWSDdaYnZ2WmJ5bQ?oc=5"
     }
    ],
    "stocks": [
@@ -857,75 +857,75 @@
    "name": "AI 전력",
    "keywords": "변압기 · 전선 · 데이터센터",
    "summary": [
-    "앤트로픽 IPO發 AI 인프라 투자↑…K기업 수혜 영역 확장 (PRESS9)",
-    "[로드픽] 트럼프, 국외 데이터센터 건설에 ‘징벌적 과세’…韓 '기회와 부담' 두 얼굴 (뉴스로드)",
-    "AI 데이터센터가 바꾼 LS의 실적 지도…LS일렉트릭·LS전선 동반 성장 주목 (핀포인트뉴스)"
+    "일감 쌓인 전력기기 3사, 한·미 공장 앞다퉈 증설 (동행미디어 시대)",
+    "머스크 AI 자금난 경고에도…국내 전력기기·전선업계 \"美 전력 수요 탄탄\" (녹색경제신문)",
+    "AI 데이터센터 전력 수요 늘었는데…전력기기주 차익 실현 직격탄 (핀포인트뉴스)"
    ],
    "watch": "체크: 미국 변압기 수주·증설, 데이터센터 투자 발표",
    "news": [
     {
+     "date": "11.24",
+     "source": "동행미디어 시대",
+     "tag": "z",
+     "title": "일감 쌓인 전력기기 3사, 한·미 공장 앞다퉈 증설",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dlRqN01lWURicGJhRkJvcVN6NUJpc2N2THpMd2pDZnUyLTZfZmIxWFppRFR0WmwySHp6SXhSVDd1MlhuYUJNVWMzU1Mxanc4NFNGQjlHS1lRVHQtckE?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "녹색경제신문",
+     "tag": "z",
+     "title": "머스크 AI 자금난 경고에도…국내 전력기기·전선업계 \"美 전력 수요 탄탄\"",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhaTAtQTFkZTFodlhTN2ZTY0UxYktuWnp3OXhTOVZ3c3U5M0FscUZFYkIxckNWQ1hNVkFacl9RYldMMjVsWXhzQXg2NE85eUdUYkVjU2RkV1VQZE1mYjRUdDN6ZXNxVmlJ?oc=5"
+    },
+    {
      "date": "11.23",
-     "source": "PRESS9",
-     "tag": "z",
-     "title": "앤트로픽 IPO發 AI 인프라 투자↑…K기업 수혜 영역 확장",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yalR3S1ljOTJZVWtjSVdYM0g0VjNFMlFtdVZjcUU5TTJDTjZFcktJOFBPa2tmX3FEWW0teTAwY1Atbk1QS1FNT21hZlMta0tqeWJLUTdTN1FuR0tPb3h1QUttM28?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "뉴스로드",
-     "tag": "z",
-     "title": "[로드픽] 트럼프, 국외 데이터센터 건설에 ‘징벌적 과세’…韓 '기회와 부담' 두 얼굴",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HMEZxZGxxYkZ3M0hiWXVQNy1ucFotb2VQa05rNmJ2NHlESnVNQU9KLUUzM282UGZmREgyWktpNFJPUGczekRxTGRBOG95ZGE0MTdyTVpwcWFnSWhiM2NZdkE2OTNrZC1tZjhORFE0TdIBb0FVX3lxTE1HMEZxZGxxYkZ3M0hiWXVQNy1ucFotb2VQa05rNmJ2NHlESnVNQU9KLUUzM282UGZmREgyWktpNFJPUGczekRxTGRBOG95ZGE0MTdyTVpwcWFnSWhiM2NZdkE2OTNrZC1tZjhORFE0TQ?oc=5"
-    },
-    {
-     "date": "11.22",
      "source": "핀포인트뉴스",
      "tag": "z",
-     "title": "AI 데이터센터가 바꾼 LS의 실적 지도…LS일렉트릭·LS전선 동반 성장 주목",
+     "title": "AI 데이터센터 전력 수요 늘었는데…전력기기주 차익 실현 직격탄",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8ydllqUmhiOXBiaS1XLUdLeFFHYlJlNHd1b3NSdUtnV2M4ZFFBM1ZoRWRlMkZLU2NrSHd6OV9nUTNaUmM3SFd1cUh6dFp4cFl0cXFKcUZjTEpleGdBRDFTY01sNThrbi1VWnVYUnY5bzdEdjcwWF9J0gF3QVVfeXFMTzJ2WWpSaGI5cGJpLVctR0t4UUdiUmU0d3Vvc1J1S2dXYzhkUUEzVmhFZGUyRktTY2tId3o5X2dRM1pSYzdIV3VxSHp0WnhwWXRxcUpxRmNMSmV4Z0FEMVNjTWw1OGtuLVVadVhSdjlvN0R2NzBYX0k?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9KdHdxWnh0cTRGTG54eWc2MVBPcHdhLU9aQlNjX2RXTGFERHRLQjN1SFd4VXNzVGRkNTFaTS1aeXVCa0JqREoxcDgzR2V5VU14ZE8teUh1NHYzSGFtUkY4T1lrN2xObDlZZXUxTk9kakpEakV5UVYw0gF3QVVfeXFMT0p0d3FaeHRxNEZMbnh5ZzYxUE9wd2EtT1pCU2NfZFdMYUREdEtCM3VIV3hVc3NUZGQ1MVpNLVp5dUJrQmpESjFwODNHZXlVTXhkTy15SHU0djNIYW1SRjhPWWs3bE5sOVlldTFOT2RqSkRqRXlRVjA?oc=5"
     },
     {
-     "date": "11.22",
+     "date": "11.23",
      "source": "핀포인트뉴스",
-     "tag": "z",
-     "title": "구리값 7개월 만에 최저… LS·대한전선·일진전기 반전 기회 올까",
+     "tag": "p",
+     "title": "[거래소 외국인] LS ELECTRIC·가온전선·산일전기 매수…전력 인프라 투자 확대",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SQTk5YVFPYkdPa1BKSzU1RkFWWjJCSDhQSHpsTGhzalJYcW5fUWdzZHI3QmpqcVRxaGJBcmxON1A4SjdqbXZIYXJVUnpRU0RSNHMtalZESFJleGQ0azJxYkdncy1SbUcxc05WendhOUt2ejJxZWRr0gF3QVVfeXFMT1JBOTlhUU9iR09rUEpLNTVGQVZaMkJIOFBIemxMaHNqUlhxbl9RZ3NkcjdCampxVHFoYkFybE43UDhKN2ptdkhhclVSelFTRFI0cy1qVkRIUmV4ZDRrMnFiR2dzLVJtRzFzTlZ6d2E5S3Z6MnFlZGs?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FTDlMZVhPemlmc1JJWVZQbUF5b0E3ajQxVURnLXByM3RJTGdNZmc1ZHJCQ0RFczdHOUdIQnZWQkRaZGtJcVFHZUFHSVE2cnI4S1M1ZDhqR29Ybklsekt3Z0hpM2ppNjU0NWVYRkZqZE91WHPSAXdBVV95cUxPN29OV0gyOGhqbFhIZHpMUDVGTVRZcTZ1MXBIWHhaSlRfaHEzOHJXV0FETjVUcDIxRnQ4RG9ZOHRZOHR5eWFSREF6VVV6ZkxCUTFTQ0xxVkM4MmR4NDhpQWlDOXJXRTEyYXBNZzNJSllJVllNd3Zicw?oc=5"
     },
     {
-     "date": "11.21",
-     "source": "매일경제",
+     "date": "11.23",
+     "source": "중기이코노미",
      "tag": "z",
-     "title": "“앤트로픽 상장했는데 내 주식도 오를까”…수혜주 살펴보니",
+     "title": "AI 신뢰 흔들린 11월…데이터센터 병목은 어디에",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GTzc3Tnp3d1FsRHFfdjJTQk1KZ2l2X0tlUkd2ZjZTSjUybjhON2VzRnRGR1dNVnZaU25RTE5BcDhMd1g0ZVNuVGtjWlJHVUp2MFE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBTXlEVktKd1E0cEszdGN0UEFNWkZRbzl4eHZMU05nYTBpWFduN0k0NUVIUDVnaWY5d1ZvZlhUWDdoeGYtbm55dVFuY2pMLUZFdk1qZFl1MkM5SnpEWHNXakZ3UXdtazZDeGc?oc=5"
     },
     {
-     "date": "11.21",
+     "date": "11.23",
+     "source": "오피니언뉴스",
+     "tag": "z",
+     "title": "LS, '전력망 슈퍼사이클' 올라타다…전선에서 인프라까지 영토 확장 '속도전'",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFUGVTazZIRFplaG5mSldiSXVMUEwtSGFyaWQwdDN1WGJsY2FabEZxV0lxRm90cGp3N2szcmNGc0NJa0c0bm8yRlFodTZCbkJiWW9aMDVkaWliMXF4LWk5eVloQ0cwTUJKdm1Nako5aV9NZw?oc=5"
+    },
+    {
+     "date": "11.23",
      "source": "핀포인트뉴스",
-     "tag": "z",
-     "title": "미국 전력 인프라주에 차익 매물 집중…LS ELECTRIC·산일전기 주목하는 이유는",
+     "tag": "n",
+     "title": "가온전선 나홀로 돋보인 전력설비 테마…거센 대형주 매도 압력",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WU1ZKREJPUlZRaWJXVkVhWUZOX1FyOXZtWnh1b3JmN1A2aHFNM1JPcnVzdnpfN05nakM2cUZlRktRR2wtR1Nob29yVVhwSTNUR05fb2cwdFBjbWp0OUEyZkFrTW5XbmZNVk1hRDVNWF85cUlUT1Vz0gF3QVVfeXFMTVZTVkpEQk9SVlFpYldWRWFZRk5fUXI5dm1aeHVvcmY3UDZocU0zUk9ydXN2el83TmdqQzZxRmVGS1FHbC1HU2hvb3JVWHBJM1RHTl9vZzB0UGNtanQ5QTJmQWtNblduZk1WTWFENU1YXzlxSVRPVXM?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QYjdUVFBEakdud2E5a1hLb1ZXUmRNMnYwNmZ1cTBxNDd6TDZSQ25OMXMzS2NtVTdvcGRZUDgzd0ctaE42OEcxQTU1cFozTzZhdFBYUVhrem9aQWM1c2JPaHk0Wk1JMTlwbkprSVhnV3dNdEHSAXdBVV95cUxQazZId2hrSm5WMWhlb3ozV0lUWjFrZVhIcFZURExSMTZRd1hoRTRTNWVRdG81VlhTRXBpVXg2VGl6b2E2MHJQYVQ2bmJmTnU4Sm9Wd3dFakQyZDI1Y2pZM3YtUmY5Q0xHZmJzNlV1QzlRcml4ejBfMA?oc=5"
     },
     {
-     "date": "11.21",
-     "source": "핀포인트뉴스",
+     "date": "11.23",
+     "source": "비즈니스플러스",
      "tag": "z",
-     "title": "가온전선, 부스덕트 넘어 고내열 케이블까지…AI 전력 인프라 수혜 주목",
+     "title": "[영상]LS전선, 7000억원 규모 美 뉴욕 전력망 사업 본격화",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TSUNiYlBHcmRFWEhxV1FQWlZSU3BGblIyS2IySjFhc3ljTUVQbGYwYjJITm1kVVQ1RkY5UDlFcmpCQ2U4RkF3WTNUeEFSd3JZYm1DcGZCSU9BR1hWZE9KVjVNM0JrdHk3VDhLTGVHN18wMnPSAXdBVV95cUxPdk5aZFhUT0tHNEJyQ1dKV2NsTG85aUlNVEdHVnJtVEJfVUx5alNYTTR5SFJiQ2lWX0t0bkwwUUNPeFlGLThCYmJkNURSR29ySXlJUXFWQm55YjhZOER6V1NROUc0TXp2MTFWZXBNMXloMnplMXZZaw?oc=5"
-    },
-    {
-     "date": "11.21",
-     "source": "쿠키뉴스",
-     "tag": "z",
-     "title": "美 중간선거 민주당 승리하면…“방산주 부담·전력기기 수혜” [美 중간선거]",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZclBfTDdCU21IX0xVNGdSMWhXOXRIZmoyZENSa3ZLbE1LbkpZM2FTaF9Lek1RTUt3UWZJeHU5dVkzZ2lhX2pmTUdRLWNjTUlOLURMZDhXVko5dUlKMmFXSEJjYw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tcS1LMGZqV0VhLXdpQVhiaHhlcDBaYi1Kd1lVUm5OSGNaNXJvcmZQSEVJM0VQRkNzc1ZIbkVMeXpfT2hjX2lpNGo2UzhpODVjVTNsZXprS2lwZVNVRUFna1lWLXFkZWNBV3BhU0dXSQ?oc=5"
     }
    ],
    "stocks": [
@@ -966,12 +966,44 @@
    "name": "금융·은행",
    "keywords": "밸류업 · 배당 · 금리",
    "summary": [
-    "신한지주, 롯데손보 인수발 주가 하락…저평가 매력-하나證 (PRESS9)",
-    "[모닝 리포트] 은행주, 내년 뚜렷한 모멘텀 없지만…\"저평가·주주환원 매력 여전\" (뉴스핌)",
-    "상법 빈틈 파고든 4대 금융… ‘세금 0원’ 배당 (Chosunbiz)"
+    "배당·자사주 소각 약속했지만 주가는 뒷걸음…밸류업 종목 희비 (핀포인트뉴스)",
+    "금요일엔 버텼던 은행주, 월요일엔 코스피보다 더 빠졌다 (펜앤마이크)",
+    "[거래소 외국인] LS ELECTRIC·가온전선·산일전기 매수…전력 인프라 투자 확대 (핀포인트뉴스)"
    ],
    "watch": "체크: 기준금리 결정, 주주환원(배당·자사주) 발표",
    "news": [
+    {
+     "date": "11.23",
+     "source": "핀포인트뉴스",
+     "tag": "z",
+     "title": "배당·자사주 소각 약속했지만 주가는 뒷걸음…밸류업 종목 희비",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KOG56U2ZvVS1oWkZtQ1kwcnlYY2oxdk9yVE52QWYyUGpyWVp5TnNDU2ROZ3NZdG44Uk15ZWVOYXAzZ0o0R2VjU0loS0piR0tnakRUSXIwcG5UNWFUWUJvM3pCVHdpTWNya2tRS1NYOHNmS2fSAXdBVV95cUxQOF9EZnVqYUM1RlNyTVk1dGk4VVpKTzlOemxneFFJeHpCV3dtd01sUUVTMHBTampRbHkwVXRNX0tQSTdWdGc1ODNrNjBSMlZVTFNFNVRmRDNKYWRNbnRneFlEbFVOMzJaMFRHZUdzOXpGdERPYk5mTQ?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "펜앤마이크",
+     "tag": "z",
+     "title": "금요일엔 버텼던 은행주, 월요일엔 코스피보다 더 빠졌다",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0Z09iMG9XRmpEOWIwR3RmbHFWS1NwMkQ3Y19xYUoxUUQ4eUl4QkhDcnRUd1BRZm04bGk1OWxJNmVYUlFhdnVkendjZW1iN0ZJSUlzdDVzMlpYVmUyQnpLYWYxZUpyZHBfNExn0gFvQVVfeXFMT2hTU0YzOFdpNE1ab3BGeEdtLTVlWHVGT1EyVi1mUmx5VTJvVXFiMFVrYVA2RWRCXzVCNEZFdjF1U1RZdXBXX3p0WUFrNi1qalZObHBrTmRET2dNTlVad2tYVGhOdEFWal81TlZvTjM4?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "핀포인트뉴스",
+     "tag": "p",
+     "title": "[거래소 외국인] LS ELECTRIC·가온전선·산일전기 매수…전력 인프라 투자 확대",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83b05XSDI4aGpsWEhkekxQNUZNVFlxNnUxcEhYeFpKVF9ocTM4cldXQURONVRwMjFGdDhEb1k4dFk4dHl5YVJEQXpVVXpmTEJRMVNDTHFWQzgyZHg0OGlBaUM5cldFMTJhcE1nM0lKWUlWWU13dmJz0gF3QVVfeXFMTzdvTldIMjhoamxYSGR6TFA1Rk1UWXE2dTFwSFh4WkpUX2hxMzhyV1dBRE41VHAyMUZ0OERvWTh0WTh0eXlhUkRBelVVemZMQlExU0NMcVZDODJkeDQ4aUFpQzlyV0UxMmFwTWczSUpZSVZZTXd2YnM?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "핀포인트뉴스",
+     "tag": "n",
+     "title": "피에스케이홀딩스·엘앤씨바이오 선방했지만…대형주 하락에 힘 빠진 밸류업 테마",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9KYkJBZmdxd0J3UTBGVXlTN0VoV0ZIaVRMYTlMMnVpTXhKRTZZdEx3b2w1R295UHRkdGNFOVFiOE1KS1JvY1JOWmk1RXd0Z2dmOWZtLXpqVHltTW5UQVZmOTVVaVJNRVR0dXVRbDRJbFpzbjhjVE1V0gF3QVVfeXFMT0piQkFmZ3F3QndRMEZVeVM3RWhXRkhpVExhOUwydWlNeEpFNll0THdvbDVHb3lQdGR0Y0U5UWI4TUpLUm9jUk5aaTVFd3RnZ2Y5Zm0tempUeW1NblRBVmY5NVVpUk1FVHR1dVFsNElsWnNuOGNUTVU?oc=5"
+    },
     {
      "date": "11.23",
      "source": "PRESS9",
@@ -1003,38 +1035,6 @@
      "title": "하나증권 \"코스피 급락에도 은행주 선방..11월 14.1%p 초과상승\"",
      "summary": "",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PcUhPTzJ3YV9HSDlMaFdUSFloOGZxZUdxNHhidDFNbnlDalBsVzhiTXU3YnQ1anlpV0ZJYTN6dms3UmVnY0I5Wi1XaU04d056RkE?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "매일일보",
-     "tag": "z",
-     "title": "현대엘리, 무벡스 지분 매각해 주주환원…1026억원 규모",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GRVJWMThzemFheGZSb0pqcTZOSDNGc2NDLXpUVTMyeVZadGhhWnB0bHlfVWliLTlMOGtGUW5tOW9EdGRWcHg1M3ZEWDNma1dIWnZfWVExUGJENGxtSGxtYWx4c2w?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "한국금융신문",
-     "tag": "z",
-     "title": "양종희 전 KB 회장, 아름다운 마무리...\"하나의 KB로 고객 약속 지키길\" [금융권 이슈]",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hR2pQZUMwODd4eTY0QzBHaXhYUGx3eGl5ZXhjOEF2MmlJWFRVYWVyNDJocWNONjRMV1RRbnJBaGczVmd1dWpHWGd4ZnU5UDA0eXJtWDhyNllNRXdDZnBock5JUTNSSGJLaUdJTlZjS1hlc2dWQTlQNGRBczE?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "매일경제",
-     "tag": "z",
-     "title": "배당의 계절…증권·은행주의 시간이 왔다",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HN2l5Wkp6MXh0bENGYk5ad1puTUZxS1lZR09wT01GSmlJUENuTWFvN2MySEw5Qll5X3FqT3RRUVRHcFpOQm16QjNPYkhiS282YXR0Yw?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "핀포인트뉴스",
-     "tag": "z",
-     "title": "[신한의 Leading DNA-上] 순익 5兆시대, 자본관리 전략적 디테일 '주효'",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WekhoVTM3YmExT1BCM0NUUk9aQzVfcG11T1MwUmFSaUJ1eGtHbklXTXBQQmxwcW1vcUN5ZHZUREdrTHFhVkE0VEdrUmNkaXlhMGlwVHdSNW1vcjh0UTNXb2JkaXdYVVNLTjlQQlIyeHRqaDjSAXdBVV95cUxQTDJoRkM5bkxaTGdfNEtXSnFzZWRsUGt5M3Nnblk3YlNOcnhnX3BycUJuZEcyMzFlQlNzWTRRU2QzMFFCMjllenRTSmRabjlYZ2NIeGJlTDNPNmZBUFExX3F2dFU1aGFQMXNzSGp3MEhqS2ZtX3NzNA?oc=5"
     }
    ],
    "stocks": [
@@ -1075,75 +1075,75 @@
    "name": "엔터",
    "keywords": "K팝 · 컴백 · 한한령",
    "summary": [
-    "한한령 해제 기대에 K콘텐츠 ETF '활짝'…수익률 상위권 독식[펀드와치] (이데일리)",
-    "씽크풀 : 디어유(376300)눌릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략. (ThinkPool)",
-    "K-팝, 다시 중국 홀릴까… 치솟는 엔터주와 풀리지 않은 ‘한한령’ (더스쿠프)"
+    "정우성, 아티스트컴퍼니 지분까지 팔았다…이정재와 결별 수순 [IS엔터주] (일간스포츠)",
+    "코스피 3% 급락 속 엔터주 동반 약세… 4대 메이저 중 가장 리스크가 큰 곳은? (뉴스버즈)",
+    "그로쓰리서치 “엔터주 반등 열쇠는 ‘투어’” (한스경제)"
    ],
    "watch": "체크: 대형 아티스트 컴백·투어, 중국 공연 재개 소식",
    "news": [
     {
-     "date": "11.22",
-     "source": "이데일리",
-     "tag": "p",
-     "title": "한한령 해제 기대에 K콘텐츠 ETF '활짝'…수익률 상위권 독식[펀드와치]",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSHZ4aVg3cTk0NnZpZjRjYnhnR2V3bngzd2w2UjV2MDVEQ25LbS1JRzVMZFVaUmZ3alVLOFF0TDZzTWkwby1sNG5CTXZBdWNwbGdQaEJrMW9BYXpOMkRYUkJpdy1uYmpxSmdWTGtQY1B3UGl0XzJSRDdwWnhudEhLUQ?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "ThinkPool",
+     "date": "11.24",
+     "source": "일간스포츠",
      "tag": "z",
-     "title": "씽크풀 : 디어유(376300)눌릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략.",
+     "title": "정우성, 아티스트컴퍼니 지분까지 팔았다…이정재와 결별 수순 [IS엔터주]",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsZ1NaVEtveXl6LVMzaENHTmNIVzNaMHFDLUpseUtoYVZtRWtabWQwaHA2MnpLV05PQXpUQnhOa2VWa0c3MjY1S3pTaXRXNzVLSXpsRjZLOS1wVk45?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tLVRsOFBOWGdGbFdrUGhBMzJjRFFqU1UwdUNKZVpxZUdlVnhxbXlzRy1LWG9UaGdVY08wbjJiUkw2cnFFQ1A4M3BsbFlib2psWFk3QlM4ZEpFcGM?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "더스쿠프",
-     "tag": "z",
-     "title": "K-팝, 다시 중국 홀릴까… 치솟는 엔터주와 풀리지 않은 ‘한한령’",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00M1VMNXFJWk1SU0xwZHI2cDhzd284Y2k3eVZJVjgweUxMaFZxYkpJbFhjZUtzRXRISFdFWGFwWTJFT0ZqRGZCUkJWVHU4RXFTNDY4LWFIeEZieUZNak1BV1ZqX1FpX2w1WWNBTXlB?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "한국경제",
+     "date": "11.23",
+     "source": "뉴스버즈",
      "tag": "n",
-     "title": "초고수들, 美 기술주 약세 틈타 삼전닉스 쓸어담아…엔터주 차익실현 매도",
+     "title": "코스피 3% 급락 속 엔터주 동반 약세… 4대 메이저 중 가장 리스크가 큰 곳은?",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FZ1VoV0VMeVdnVWw1cFQyQk9DbnhHWEFVZ2Y4aFVsdU0xZnNHVG1yU21uYlJ3dmZWY1FOWjBuTXZxQWVqcWFlUW12Nl9TTEJDTXIyY3kxY0xPQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kNkgwajRBOTFwZkpKcE1XeGpNbDg0cTRGMlI2WDF6SDlwSHFRM0NqQ0w3WUVmck5ZcUw1MnFmcHpsX2tVb1JzTjRxOEppU1J2MTE2RzNxajNHNnNpVk9EQ29VbldiZzZ6VE5Nbg?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "와이드경제",
+     "date": "11.23",
+     "source": "한스경제",
      "tag": "p",
-     "title": "한한령 해제 기대감에 날개 단 엔터주…추가 랠리 열쇠는 '중국 공연 승인'",
+     "title": "그로쓰리서치 “엔터주 반등 열쇠는 ‘투어’”",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tM1pxWDJNN0ZuY29wWjRkN1pudXpRRFl4N1dyOVdXSzNoazcyU3Q0UC0yV2ZsT3FjVzcwSjRqb0NRbUVxcFR6U291Z2dBX1BTT3Rsb3lCaTV6TzRWWGxWSmx1a25YX3AxZG1pZQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBRGdqU2F6SWxET1lMcEJvZnRTY0JvZnRkU3NwN2F5UHJWcUpJZVBId2dvQUMtR0VZbEt2OWNIcFZwem9FdXQ1bWFyRGNYVmhTU2EyMnhjdkUybVhTRlAwZnF4ZEh0M0pINV930gFvQVVfeXFMTmRPOE93aE5rbGtUNnVXOFdfdlJXclFhUVJTY25SUnpGVGZhTHI2cDVPajlrallxQll0eHc5TDROTE1XUTc3QWl2MGtnQUdmQmFoNV9rUmdJYjlDd2trckdaTFIyWWVTZjVlV1U3NllN?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "매일경제",
+     "date": "11.23",
+     "source": "중앙이코노미뉴스",
      "tag": "z",
-     "title": "“10년 만에 만리장성 뚫리나”…하이브·SM·JYP 中 복귀 시동 걸었지만 ‘이것’이 변수",
+     "title": "하이브·SM·JYP·YG, 2027년 주력 그룹 공백 우려…신인 해외투어로 돌파구 모색",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83Nm51UktxRzdEbnk4RHYyM1FkQnhLUjdBdGlFQXZOajNjVENzUXhlZVQwNkI1UzAta3dkblBfakxHck4zSGRmR1lEOVN5VnVxU3NHVw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOT2tyZXJTN1dhREl6dXFqSDBlcldyajFJOXJJbmI4dzhzWjRKeFJ5VGpiMVFiRjJReGkxNl9uUV85bzBRT0JHMTJZNndmSXVCU05rcWxsRHo3YksxZEZydnRpeERONWlpYjM1N2VjbDZyZw?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "더구루",
-     "tag": "z",
-     "title": "블룸버그 \"K-팝 거인, 10년 만에 만리장성 넘다\"",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tSDZvc1BTSjZhcndHWURzUV9oSEtiNUc4Wmx1dHFxRW9JdWltcS1KZGJMc0Q2VGdMQVZBU1FiMDJaWEtCQ2lfcWl6NTBKTnIzc1NveDBsSnctQXVIVkE?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "증권일보",
+     "date": "11.23",
+     "source": "데일리바이트(DAILY BYTE)",
      "tag": "p",
-     "title": "한한령 완화 기대에 '엔터주' 들썩…K팝 공연 재개는 여전히 안갯속",
+     "title": "JYP Ent.: 한한령 완화 기대 + 실적 성장 기대",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43TW9mOVVUVWhZNXp0ZXJmQ2gzRjFzOFhaWWprN0ZjaW9yb3cyZ1dTTXJ4VWtxZUpwRHViWElsektvNFRhbGJfX3RtR0w0MUl6aU5NQU10MXIySmxvTTRreQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UckJlZ0VOdjBUS3J1NkJPTG1iYkZvSG5jU0trc0F6VGFaYTV5ZG9DdkhFQ3hNVGpvd24wbEw0MF95WVRtZDQ1cWNZYzY4bVlvZnR1MjJiZHN1bFF5RzZaaHlTZ0VRNXp5UFhjVktqZW9hQTFXSmM1RGs2TQ?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "뷰어스",
+     "tag": "z",
+     "title": "[산업보고서] BTS 공백 우려에도 저연차 성장 가속…엔터주 반등 조건은",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NUDFGclZfNklXLUcydzUtSkRSMkNuMnVkVGJGaTdldEhnX09ucGRKcnh6eV9MUDRiODdIWlhBcFZvV0lSM25TbEhURjBqUG5pMEk3SnI1QU8?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "데일리메이커",
+     "tag": "z",
+     "title": "하이브, 日 걸그룹 SKE48 소속사 1057억원에 인수",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lb3E5dkc3UTJQVVZOTWFqcU5iczVjdWtrVGw1S2kxMktIRlFGVkFHdERaYnVTX3hBQ2JFcUl1cF9oajZPOEtNT19rNEVOUGpHaGdlMWUwTDlLWldUOTdaZ1BJYWthb1k?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "브릿지경제",
+     "tag": "p",
+     "title": "그로쓰리서치 “엔터주 반등 열쇠는 신인 그룹…2028년 실적 개선 기대”",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGeTRrRUo2WmhONzZscTRIV2czWHpXTTVlTnpkb3NDWWZybU5yY1dDWHNDa1dyUGpMWUQxOTdFaVhmaU1MaV9CQnBaUW84ZXpoV0dTYXhnc2ZRUQ?oc=5"
     }
    ],
    "stocks": [
@@ -1179,75 +1179,75 @@
    "name": "자동차",
    "keywords": "관세 · 전기차 · 하이브리드",
    "summary": [
-    "“주가 급락, 좋은 점도 있습니다”…배당수익률 8% 넘은 종목, 올해 7개 (매일경제)",
-    "[편집국에서] 중국차 압박 속 현대차의 생존전략은 (부산일보)",
-    "장기 주차·캠핑카에 몸살...인천아시아드주경기장 주차장 유료화 ‘난항’ (기호일보)"
+    "산불현장지휘차량 친환경 전동화 모델로 바꾼다 (농축유통신문)",
+    "'트롯거성' 이찬원, 11월 3주 차 평점랭킹 TOP2...249주 연속 2위 (톱스타뉴스)",
+    "'하정우♥' 차정원, 결혼식 3주 앞두고 신혼살림 준비? 감각적인 그릇 쇼핑 눈길 (라디오코리아)"
    ],
    "watch": "체크: 미국 관세·판매 실적, 환율",
    "news": [
     {
+     "date": "11.24",
+     "source": "농축유통신문",
+     "tag": "z",
+     "title": "산불현장지휘차량 친환경 전동화 모델로 바꾼다",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1USjhkOG9kSzRfSzVkLTZpZ0xFWGxCeDBkN3NXSkJKNjJIbkFYY2ktMjN3akdzeE9jcVNjWHFnSVhBMFJjQ29hc0FtaU1Td2xZbWJjTEpzMGJJTVV2RnMwOU9scHdpRU8t?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "톱스타뉴스",
+     "tag": "z",
+     "title": "'트롯거성' 이찬원, 11월 3주 차 평점랭킹 TOP2...249주 연속 2위",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LSWt1MXRjcHZLZUNvd2ZvWTBKb05FckYyQ3BsRHBDWWgxcGlON0RWMDFmeHVsU09QeUYtZ3lLcThfYjdCSUItb1RmanhzN3dod2ZiZjlVRFJsVS16bXM4ZjlhT3Yxcjdqa3BZS1ZaenA5dw?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "라디오코리아",
+     "tag": "z",
+     "title": "'하정우♥' 차정원, 결혼식 3주 앞두고 신혼살림 준비? 감각적인 그릇 쇼핑 눈길",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDejduUjIwZzZWb3ZtaEdhSVpKekR1ZWlORjFQZk9GNURpZ1loZllSMTlVbUdIX1E4U2lUMmtud1A5SkNnNDg3ZEtrNVo0NDZURm1hQUpXMGNmM0FTdG9UaDB0bzg?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "유스연합",
+     "tag": "z",
+     "title": "인도네시아 서자바주 차량 8대 연쇄 충돌…7명 사망·6명 부상",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzUU14MXRkWXBSX2tJM2VnamlOQzQyUHZqZUR5YjVxT0R6N2ZyVmh1YkNDUktyZEZSeXRpb1Q0dk5WYm5ZWEppMHJIUmtUcDlicEE0?oc=5"
+    },
+    {
      "date": "11.23",
-     "source": "매일경제",
-     "tag": "n",
-     "title": "“주가 급락, 좋은 점도 있습니다”…배당수익률 8% 넘은 종목, 올해 7개",
+     "source": "Simply Wall St",
+     "tag": "z",
+     "title": "이번 주 전기차 소식 - XPENG의 ‘ARIDGE’, 비행 자동차 기술 분야에서 중요한 이정표 달성",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01emJIZjlfSklmTmxXdWh5dlRCRzlXZFBxNF9fU0dSdU9rVjdZcFNvYjlMUDhmdHA0cjVTV0NNNkZzdHNVMXZ1MlJXS3MzXy14Q2c?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLUJVbTM2YmJiQWhnLUF0dUtnUk1UWHE2M3o0LWQteFpNTFVKV2Z5elpxNEVhMjJkVjhqMUYwbExtTjRaR1V4UFFEZW1pOUtGYnE1SzEzOEdjUUxFS0o3Z1VXdGFvQ2V2YWpRVW5mdkxpcWRGaTRiT3BJWF8xX1RrVlNPTnJZZGVTTUlSNHI4RQ?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "부산일보",
-     "tag": "z",
-     "title": "[편집국에서] 중국차 압박 속 현대차의 생존전략은",
+     "date": "11.23",
+     "source": "이데일리",
+     "tag": "p",
+     "title": "중국 美 판매금지 입법 코앞…현대차·기아 반사이익 기대",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84VENhUjNMc1ZtNXJ5aHllR2pJWDEzNE1vSUROM1VKa19mOE9wQ1Q4c3ZNdmhRVERoT3NjT0JCOUtuYm5IY2F2enVTTDY4VXBLTk5HTGNfdUxkaEw3LW1SejQzYzN0QzlMd1g5cV9KTWFHZ3lT?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOGpuNWdpZ0IwODV6R0JnWlVpT0pMbjAwaks5ZnlueHBHNmZyb1YxeXE3V3FKWmxjUmc0RV8xSlVycy1ZbldwWklLX01sVHJxU2YzM011dEpqRGZIMkYzWVc0cHZScXotZWZwN1NjTGRKVFVsaGdWS2Zhb3J4emdmdg?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "기호일보",
+     "date": "11.23",
+     "source": "폴리뉴스 Polinews",
      "tag": "z",
-     "title": "장기 주차·캠핑카에 몸살...인천아시아드주경기장 주차장 유료화 ‘난항’",
+     "title": "현대차, '수출'에서 '현지 완결형'으로…생산·부품·제품 동시 재편",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vSC1HX3VKV0FJN1B4eDRTUjdqU0tuRGxtOGVYUG9wdUU5c2R4US1BSi1IOVBOMmQ2TC1DSHdVdkV0cjhYeDhBdEJCZ2xlT09ZYXZTUlQwNVZfSEZFMW5aR2JxTHdJQnIyenhiSlpNaw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnTkZXbExlMHM3SGZYZkdVWmd6T3VNX0Z2YUVXU1liSzhaZ29CVEVaOEMxdW4waXZramI3QnJhY2ZzTFNTNTZYWXhuSUxvZTFGZVNOQVo2dklmYXZZMnZfSFh3MjRNcXVtR25idlBn?oc=5"
     },
     {
-     "date": "11.22",
-     "source": "경향신문",
+     "date": "11.23",
+     "source": "뉴데일리 경제",
      "tag": "z",
-     "title": "정부, 이번 주 전기차 경쟁력 강화방안 발표 유력…대중국 자동차 무역적자 6조원 역대 최대",
+     "title": "산불 지휘차에 전기차 투입 … 산림청·현대차, ST1 3대 실증",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aSlVQMmpwNEY5RXZ6UmR1dGZLRWhTdXdLWURxMmY4UV8yTlNSajYyTnZfbV9SWHVKVDd1aDhrZXNfSkNOZksxY1ZTay1oUDNPSkQ1RjE2WWI3Z9IBX0FVX3lxTE4zT2g1eDh2cmRLRFFZNjdsNVc2RVVpREdHRFdTbHBiTkgtNC1yLVc1UzBqbEgxSkdKVEpLOThfdFVHVnZKbE4wdEFQWlEzWERSbjhUUFQ5LXBFRGFyWkdZ?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "지피코리아",
-     "tag": "z",
-     "title": "'찬또배기' 이찬원, 11월 2주 차 아이돌차트 평점 248주 연속 2위",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aQ0RTSzZ1cUw3WkNhaW9MTWtveThxWFFrS3lONkF5ZjEwVUhLQWhyQmdIREhaSTJIVWZQQzZnVllFQmJLZ2pkWmpHTUFTajduTk1GR0F6eUlrMFRRcEhSQTBoX1U2cEYyd3fSAW5BVV95cUxQMFlHdzlaanMzUmJLSkdVakJGc0FyMkNMOWlUNGlvUmxhN05aYjFxNS1FNHR4ZjBwUm1SM05yYlFXdjVBNHhzd1BDOTVYbW9ZazJyeTJ0dVN1djNTd0Z5b2U0VUJvQzdqZkpoNDJWQQ?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "글로벌이코노믹",
-     "tag": "z",
-     "title": "러시아 폐차세 벽에 막힌 현대차·기아, 10월 신차 판매 58% 급감",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbk0weFRZcHRmcnJqSDNyQmN1TmNvTUFVZ0szUzlDVTM3OGp0cDVWbGJ3TDJKcUllLVJpV01XZ3ZXZzdaSnoxU19DRXI1bXpKUjRyM1Q3OTFkazRYM2Z3UnhMdWMxdEtDRVExRjMxdmlYa0V6NHBQS3JpeE5vSjhHZHk4WUNPQkYw?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "재경일보",
-     "tag": "z",
-     "title": "NFL 11주 차 메이 발목 골절 의심 속 부상자 속출 : NFL",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1xcU9pV0h5MUp3Mk9yN1JXV01SVUZwMkZmTG9MRDBkMzU4cEJoTUtUZVE2a2Qyd3BqUk5kSlVOWndDMldtTjc1Q205NA?oc=5"
-    },
-    {
-     "date": "11.22",
-     "source": "신아일보",
-     "tag": "z",
-     "title": "[주차장] 11월 4주, 'SAV 개척자' 5세대 X5 사전예약…BMW 외 3가지 차",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wZEF6QTJBVGpJX0RWWHRQd3JsRThwdnJHZWd0eTNSYjIxdml6TTlqSGxDLW9Vb0JwR01fNFdaRXQ3X1VWY2NsX096YUx6aHI2VC1WRE5yUWlQczZoZEo2M3dGM2JTai1SeXpCUnRoQkY?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1lalVMR3ZVakx0OEg1WElxVHBRdXJVSE5WbWc1WFJ0Nl84bVB0WkpaNmlQd0RiN1M5M0tBY3djVEdfbTlUNmRFZVREUUJRdVp6OHlRd0g0Z29tVzkxandjbURNY1Z3V3FSMVI5NnQyRENIdXhwTmNBbG5Mc9IBgAFBVV95cUxNNnR1bXVrRUhfV2FvZ0RKR1d0Yi1ZRnFuOHpNZmJlM0JUR0FaaXVRUGxOWEFDUm5fbExpcWZUempOQ3lUNnpKMFNDRzBJQjV2QzhESlA1XzRic2xEbFhFVHZqSF9WczVTeG9lV1VKbXN1czg3akpBZmJWNk5ackhuQQ?oc=5"
     }
    ],
    "stocks": [
@@ -1283,14 +1283,30 @@
    "name": "게임",
    "keywords": "신작 · 흥행 · 판호",
    "summary": [
-    "이번 주 Steam에서 플레이어가 급증한 게임 (games.gg)",
-    "중국 한한령 빗장 풀려 엔터주는 웃는데 게임주는…中 훈풍 올라탈 진짜 수혜주는 '이것'[주末머니] (아시아경제)",
-    "[올댓차이나] 홍콩 증시, 美 반도체주 약세에 나흘째 속락 마감… H주 1.77%↓ (뉴시스)"
+    "한한령 훈풍도 잠시…증시 한파에 게임주 다시 ‘주춤’ (네이트뷰)",
+    "워스트 클래스 에버, 신규 맵 ‘스쿨버스’ 나왔다 (게임톡)",
+    "이번 주 Steam에서 플레이어가 급증한 게임 (games.gg)"
    ],
    "watch": "체크: 신작 출시·흥행 지표, 중국 판호 발급",
    "news": [
     {
-     "date": "11.23",
+     "date": "11.24",
+     "source": "네이트뷰",
+     "tag": "p",
+     "title": "한한령 훈풍도 잠시…증시 한파에 게임주 다시 ‘주춤’",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TcFpmQmR5c1p4Q1RwUHhkVTBEVEZpXy1Ua0VGakVvOFM4OE1XQVpNdllwTWl5QjlrRlluZGpfNWlLUGNRSnloa3dmelVGUWpn0gFWQVVfeXFMTkRjdHduajM3eFN4d1BhN3hrZ1ZiR0dRZzk0MTBSZksxR3VoM3lEMUNSOXRhZHE3WUdpbjNkUEh1QVRLSnowS3RVa1g2M1lTTjVWV3pVbGc?oc=5"
+    },
+    {
+     "date": "11.24",
+     "source": "게임톡",
+     "tag": "z",
+     "title": "워스트 클래스 에버, 신규 맵 ‘스쿨버스’ 나왔다",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83Sm5uSjFoSXV4c3U3dHlGUTRTcG9WZ2wwVnBNVnZINm5QSklHVlBsUkw2cFRvSUhtV1ZPNVRnbVdiTjd3X3pfYjJTY3NHZFlkTzJNb2VjVjhZRVZjUjVwYVlRTnQtdXYxTkQ2dQ?oc=5"
+    },
+    {
+     "date": "11.24",
      "source": "games.gg",
      "tag": "z",
      "title": "이번 주 Steam에서 플레이어가 급증한 게임",
@@ -1298,60 +1314,44 @@
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VSERqWEgxeFFueWpGc0NIWjZqOFBVakdhUHF1anhDNFpTQk5XY1pBWFphSXV0Q0k3NndnY296ZFk5aU1TYzhzZUYtNEZ4YUNtcUN3?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "아시아경제",
-     "tag": "p",
-     "title": "중국 한한령 빗장 풀려 엔터주는 웃는데 게임주는…中 훈풍 올라탈 진짜 수혜주는 '이것'[주末머니]",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10LVhXTEh1Ym1sdVBveVpoTUlmV1E0X3E2aGowSHV5OUZtNGhoaTNjQldsZFRER2xBRzRYQ3RhMFZZbVZpaDlBdGh2SmZXNTJDX05ETWRvMWdaMW1JY0tqUlh3?oc=5"
-    },
-    {
-     "date": "11.20",
+     "date": "11.23",
      "source": "뉴시스",
      "tag": "n",
-     "title": "[올댓차이나] 홍콩 증시, 美 반도체주 약세에 나흘째 속락 마감… H주 1.77%↓",
+     "title": "[올댓차이나] 홍콩 증시, 미중 갈등 우려 등에 닷새째 속락 마감… H주 0.35%↓",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96dmhQYXIyYS1OV01LR2hlX3g1MFNGaDJOdm1xWWlEMXhMcDFzSC1WQm5FY3ViSmFKdUFzaTdWV0tGSXJ6S3ZwVUZjcTRRWmxoNV9jSk5nOUFGV0FGazFTV9IBeEFVX3lxTE1yU1gwMGJ3TDFVc2ZZLU5HUXlTdWNFMGNVSDFFLXJWeG5LOEdSUVdSczh2UXdQZnhjVzN0QWF4LXhQNDdPZmZJRWJ3Nk9RNC1mSWphWWp6UlVheUZfNkFXVXJrT0lpaXVXTHhsS25RM3Nac3BkVDJ0Rw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YSms4YWR0WnFqeUlJd0EydnZhQ2lkcHgxajZHVHlSMTBJWmY4SHJkam5CU19GMVFlNkoxN2JVeXZiZjlXbGkybHhtemx5cHhvNXZXRmVyWDRLaUlwdWxabNIBeEFVX3lxTE8xcDdGXzc1YW5HSTIwbDVySFd3M01WQ09GSE5TRmYtejhKQV8yaGlqNzNOVVdKRUtiV2FvMjFQd2ZUd0RnVmdhUGkxYUpQdEJUbVRObHhJNE1SUXVyNHdySW02dUwtcDJPb3djUkJWdlNvay1TNDI0Wg?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "NSP통신",
-     "tag": "n",
-     "title": "[업앤다운]게임주 하락…카카오게임즈↑·밸로프↓",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmZTBZSldRcDVWcnEtcklDeHpISlNwT0dUbEdsbkpwV3VxSlBrb21BQmk1U0dnQVZoUmc0M0RfbG1LNFpoOEtLbFN3Vm5OdXNHWV83T1ZsVVUxbFZwSFZSVw?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "경향게임스",
+     "date": "11.23",
+     "source": "스타뉴스",
      "tag": "z",
-     "title": "[주간 게임주 동향] 한·중 해빙 무드와 지스타가 깨운 게임 섹터",
+     "title": "유럽 가서 10번 싸워 다 이겼다... '20살' 김민지, 박가은과 74분 접전 끝에 2주 연속 우승",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvRUZ5ajVTSUJoOHdBQkJQQjdIaVhWdFl5b0wxV2VoZGFXTllKcnhMS3pEakJfOUZfOTJGME9vTVo4eGlIRENZY0tHLUI0OFg4UU1NNExxU0UtNHFfeEs3RllNQnViX2pUVUVKZA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBa0JGZnBoNnV2Q2FWZkZKMGM3a0ZFOUgxR0o1c0c2OFc5LVlEclJtMzItMGdFM1UtMGFKTnVNZ0c1RzRxWkxRTjlBaXVIZnNUX0xVMk5sNzNNVS1vSnRDdWxuXzlyYXp6TUd2VDE3TUI4eVFiTmc?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "네이버 프리미엄콘텐츠",
-     "tag": "n",
-     "title": "넷마블 3분기 어닝 쇼크 이후 수급 변수, 주담대 담보유지선과 2027년 시나리오별 적정가치",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdV9NTkVSY2ZzNk5WdmNhUkg4N1BNSTc4WV9WX3M5akR2NldYMHpoMnUxa1NmdW92U0U4VUhrTTlDSW5zbTBjbmg1c190LTZrRHhXWUoyOEp2Ny1xRFZkc09VSldfUnlZLVF2cGR4dDFLaWlQZTJTVUlkS1JKbC15bWwzbw?oc=5"
-    },
-    {
-     "date": "11.20",
-     "source": "NSP통신",
+     "date": "11.23",
+     "source": "위키트리",
      "tag": "z",
-     "title": "카카오게임즈 ‘패스 오브 엑자일 2’ 부산서 이용자 쇼케이스 개최",
+     "title": "라인게임즈, 위플레이 엑스포 첫 참가서 PC 신작 5종 시연…3000명 부스 찾았다",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHelFuLUw2ZFhCd0V4Uk5aeGs1bGtKblNzQWVYdC1wZEZKX3VQZmMzRzllMEpMVVgtU29DYjVNZmRDTWpXVUhocnROUFdUUXh1ajQ2Z0pxXzUyNXJBVHFXSQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zSU1SbmJTcnRHSGp0OFpZOWkwbVJQd2ZtM3hXMEVNTGNvb2JCMnZrYzFaUWM1c2U2ejhnQkVRVk54N2ZSVlY0UExubmFITTBmNDZRS3h3?oc=5"
     },
     {
-     "date": "11.20",
-     "source": "데이터투자",
+     "date": "11.23",
+     "source": "월요신문",
      "tag": "z",
-     "title": "中판호 K게임 16종, 출시 확인 1종··70조원 시장 포문 연다",
+     "title": "[월요게임순위] 11월 3주차, '운빨존많겜' 구글 매출 톱5 복귀",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Sc0hyUl9aX0Z4X0ZZcHdYazNKaVVDdjAtSEdEcVQ4SllNQkxkak9xVkdpSUxHM0hEZ1NjWUF4cVZWd0I4MjB2UnpMNGpmTFFtLWthNUZOUUtUN0VLdUloQnBnWGJob1JpZHFqWHF0dUxRX0E?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LbEN6WEM3cEl1UV8xVHJqejB4YmtvbS15MkJiWEpNcFNFc0o0Zndjamgwd2lZd0N5amtOanEyOHVVVDh2TjFfS0xSdGFGd3NnLXJja2VtdXhybnFwbEJvaTBlT192TU8zTkE?oc=5"
+    },
+    {
+     "date": "11.23",
+     "source": "테크M",
+     "tag": "z",
+     "title": "'인디명가' 네오위즈, 내년 '안녕 서울: 이태원편'으로 인디 성공 신화 잇는다",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lR3E5LVlqODRiT2wyRFZ5NUt6QUpxWkpPd2xPaDdVNk9hM2Z3aW9VLW93Y3RPSUp1bUx5Z0tsV1ZmSWk4UVM1czBuaDB2QXhJSG03d3Z6Z3JuaEhoZGEzbkNiclNHd9IBakFVX3lxTE1BdW1iaG1qSl9oS1ZRczRiQ05MT25mNUVtT1FsVTc0ajNpRGk0czlLOHlwZUpvNkNtN1k2VjR3WXFIbGdRRUJIQWVjMlZKR1JKRWFJQWJlUWNrMnlXbEhJdFg1MVd2Y2NrTFE?oc=5"
     }
    ],
    "stocks": [
